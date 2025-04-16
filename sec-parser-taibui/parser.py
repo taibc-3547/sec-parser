@@ -96,8 +96,9 @@ class EnhancedSECParser:
     def parse_html(self, html_content: str) -> SemanticElement:
         """Parse HTML content and create semantic elements with enhanced segmentation."""
         soup = BeautifulSoup(html_content, 'html5lib')
-        self._process_element(soup, self.root)
-        return self.root
+        root = SemanticElement(ElementType.DOCUMENT)
+        self._process_element(soup, root)
+        return root
     
     def _process_element(self, element, parent: SemanticElement) -> None:
         """Enhanced element processing with semantic segmentation."""
