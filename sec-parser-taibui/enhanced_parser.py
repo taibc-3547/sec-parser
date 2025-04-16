@@ -5,6 +5,7 @@ import os
 import json
 from enum import Enum, auto
 import warnings
+import re
 
 # Suppress XML parsing warning
 warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
@@ -28,40 +29,48 @@ class SemanticElement:
     """Enhanced semantic element with more metadata and structure"""
     element_type: ElementType
     text: str
-    attributes: Dict[str, Any]
-    children: List['SemanticElement']
-    parent: Optional['SemanticElement']
     level: int
-    confidence: float  # Confidence score for semantic classification
-    metadata: Dict[str, Any]  # Additional metadata like position, formatting, etc.
+    confidence: float
+    children: List['SemanticElement']
 
-    def __init__(self, element_type: ElementType, text: str = "", attributes: Dict[str, Any] = None, confidence: float = 1.0):
+    def __init__(self, element_type: ElementType, text: str = "", level: int = 0, confidence: float = 1.0):
         self.element_type = element_type
         self.text = text
-        self.attributes = attributes or {}
-        self.children = []
-        self.parent = None
-        self.level = 0
+        self.level = level
         self.confidence = confidence
-        self.metadata = {}
+        self.children = []
 
     def add_child(self, child: 'SemanticElement') -> None:
         """Add a child element to this element."""
-        child.parent = self
         child.level = self.level + 1
         self.children.append(child)
 
-    def to_dict(self) -> Dict[str, Any]:
-        """Convert the element and its children to a dictionary with enhanced structure."""
-        return {
-            'type': self.element_type.name,
-            'text': self.text,
-            'attributes': self.attributes,
-            'level': self.level,
-            'confidence': self.confidence,
-            'metadata': self.metadata,
-            'children': [child.to_dict() for child in self.children]
-        }
+    def to_dict(self, for_llm: bool = False) -> Dict[str, Any]:
+        """Convert the element and its children to a dictionary structure.
+        
+        Args:
+            for_llm: If True, uses abbreviated keys for LLM optimization.
+                    If False, uses full parameter names for human readability.
+        """
+        if for_llm:
+            result = {
+                't': self.element_type.name,  # type
+                'c': self.text,  # content
+                'l': self.level  # level
+            }
+            if self.children:
+                result['ch'] = [child.to_dict(for_llm=True) for child in self.children]  # children
+        else:
+            result = {
+                'type': self.element_type.name,
+                'content': self.text,
+                'level': self.level,
+                'confidence': self.confidence
+            }
+            if self.children:
+                result['children'] = [child.to_dict(for_llm=False) for child in self.children]
+            
+        return result
 
     def count_elements(self) -> Dict[str, int]:
         """Count the number of each type of element in the tree."""
@@ -104,7 +113,7 @@ class EnhancedSECParser:
                 semantic_element = SemanticElement(
                     element_type=element_type,
                     text=text,
-                    attributes={'tag': element.name},
+                    level=parent.level + 1,
                     confidence=confidence
                 )
                 parent.add_child(semantic_element)
@@ -113,7 +122,8 @@ class EnhancedSECParser:
         if element.name == 'table':
             table_element = SemanticElement(
                 element_type=ElementType.TABLE,
-                attributes={'tag': 'table'},
+                text='table',
+                level=parent.level + 1,
                 confidence=0.95
             )
             parent.add_child(table_element)
@@ -126,7 +136,8 @@ class EnhancedSECParser:
                 element_type, confidence = self._classify_element(child)
                 semantic_element = SemanticElement(
                     element_type=element_type,
-                    attributes={'tag': child.name},
+                    text=child.name,
+                    level=parent.level + 1,
                     confidence=confidence
                 )
                 parent.add_child(semantic_element)
@@ -137,7 +148,9 @@ class EnhancedSECParser:
         for row in table.find_all('tr'):
             row_element = SemanticElement(
                 element_type=ElementType.TABLE_ROW,
-                attributes={'tag': 'tr'}
+                text='tr',
+                level=parent.level + 1,
+                confidence=0.95
             )
             parent.add_child(row_element)
             
@@ -147,12 +160,27 @@ class EnhancedSECParser:
                 cell_element = SemanticElement(
                     element_type=cell_type,
                     text=cell_text,
-                    attributes={'tag': cell.name}
+                    level=parent.level + 1,
+                    confidence=0.95
                 )
                 row_element.add_child(cell_element)
     
     def _classify_element(self, element) -> tuple[ElementType, float]:
         """Enhanced element classification with confidence scores."""
+        # Check for SEC-specific patterns first
+        if element.name == 'span':
+            style = element.get('style', '')
+            text = element.get_text(strip=True)
+            
+            # Check for Item headers (e.g., "Item 4.01")
+            if text.startswith('Item') and 'font-weight:700' in style:
+                return ElementType.SECTION_TITLE, 0.95
+            
+            # Check for subheaders (e.g., "(a) Dismissal...")
+            if text.startswith(('(a)', '(b)', '(c)', '(d)')) and 'text-decoration:underline' in style:
+                return ElementType.SECTION_TITLE, 0.9
+        
+        # Original HTML tag-based classification
         if element.name in ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']:
             return ElementType.SECTION_TITLE, 0.95
         elif element.name == 'p':
@@ -168,7 +196,18 @@ class EnhancedSECParser:
     
     def _classify_text(self, text: str) -> tuple[ElementType, float]:
         """Enhanced text classification with semantic rules."""
-        # Simple rules for text classification
+        # Clean the text first
+        text = text.strip()
+        
+        # Check for Item headers (e.g., "Item 4.01")
+        if text.startswith('Item'):
+            return ElementType.SECTION_TITLE, 0.95
+        
+        # Enhanced subheader detection
+        if self._is_subheader(text):
+            return ElementType.SECTION_TITLE, 0.9
+        
+        # Original text classification rules
         if text.startswith(('Note', 'See accompanying', 'See Note')):
             return ElementType.SUPPLEMENTARY_TEXT, 0.9
         elif len(text) < 50 and text.isupper():
@@ -176,12 +215,54 @@ class EnhancedSECParser:
         else:
             return ElementType.TEXT, 0.8
 
+    def _is_subheader(self, text: str) -> tuple[ElementType, float]:
+        """Determine if text is likely a subheader based on basic structural characteristics."""
+        # Clean the text
+        text = text.strip()
+        
+        # Skip empty text
+        if not text:
+            return False
+            
+        # 1. Check for letter/number patterns (high confidence)
+        subheader_patterns = [
+            # Letter in parentheses followed by text
+            r'^\([a-z]\)\s+[A-Z]',
+            # Number in parentheses followed by text
+            r'^\(\d+\)\s+[A-Z]',
+            # Roman numeral in parentheses followed by text
+            r'^\([ivx]+\)\s+[A-Z]',
+            # Letter followed by period and text
+            r'^[a-z]\.\s+[A-Z]',
+            # Number followed by period and text
+            r'^\d+\.\s+[A-Z]'
+        ]
+        
+        # Check if text matches any subheader pattern
+        for pattern in subheader_patterns:
+            if re.match(pattern, text):
+                return ElementType.SECTION_TITLE, 0.95
+        
+        # 2. Basic structural characteristics
+        words = text.split()
+        
+        # Check if text is short (subheaders are typically 1-3 lines)
+        if len(words) <= 10:  # Adjust this threshold as needed
+            # Check if text starts with capital letter (typical for subheaders)
+            if text[0].isupper():
+                return ElementType.SECTION_TITLE, 0.9
+        
+        return ElementType.TEXT, 0.8
+
 def process_documents(input_dir: str, output_dir: str) -> None:
     """Process all HTML files in the input directory and save enhanced JSON output."""
     parser = EnhancedSECParser()
     
-    # Create output directory if it doesn't exist
-    os.makedirs(output_dir, exist_ok=True)
+    # Create output directories if they don't exist
+    human_output_dir = os.path.join(output_dir, 'human_output')
+    llm_output_dir = os.path.join(output_dir, 'llm_output')
+    os.makedirs(human_output_dir, exist_ok=True)
+    os.makedirs(llm_output_dir, exist_ok=True)
     
     # Process all HTML files
     for filename in os.listdir(input_dir):
@@ -192,11 +273,17 @@ def process_documents(input_dir: str, output_dir: str) -> None:
             # Parse the document
             semantic_tree = parser.parse_file(file_path)
             
-            # Save enhanced structure to JSON file
-            output_file = os.path.join(output_dir, f"{os.path.splitext(filename)[0]}.json")
-            with open(output_file, 'w', encoding='utf-8') as f:
-                json.dump(semantic_tree.to_dict(), f, indent=2, ensure_ascii=False)
-            print(f"Enhanced structure saved to: {output_file}")
+            # Save human-readable JSON
+            human_output_file = os.path.join(human_output_dir, f"{os.path.splitext(filename)[0]}.json")
+            with open(human_output_file, 'w', encoding='utf-8') as f:
+                json.dump(semantic_tree.to_dict(for_llm=False), f, indent=2, ensure_ascii=False)
+            print(f"Human-readable structure saved to: {human_output_file}")
+            
+            # Save LLM-optimized JSON
+            llm_output_file = os.path.join(llm_output_dir, f"{os.path.splitext(filename)[0]}.json")
+            with open(llm_output_file, 'w', encoding='utf-8') as f:
+                json.dump(semantic_tree.to_dict(for_llm=True), f, indent=None, separators=(',', ':'), ensure_ascii=False)
+            print(f"LLM-optimized structure saved to: {llm_output_file}")
 
 if __name__ == "__main__":
     input_dir = "downloaded_html"
