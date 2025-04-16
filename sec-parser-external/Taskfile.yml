@@ -1,0 +1,231 @@
+version: '3'
+
+tasks:
+
+######################################################
+### Development Tools: Local Application Launchers ###
+######################################################
+
+  launch-dashboard:
+    desc: Start a local dashboard in the browser.
+    cmds:
+      # Using PYTHONPATH to allow Streamlit to monitor file changes. Learn more: https://docs.streamlit.io/knowledge-base/using-streamlit/streamlit-watch-changes-other-modules-importing-app
+      - export PYTHONPATH=$PYTHONPATH:$(pwd)/sec_parser ENVIRONMENT=dev && poetry run streamlit run dev_utils/dashboard_app/app.py --server.runOnSave=false --client.showErrorDetails=true
+
+  monitor-unit-tests:
+    desc: "Run unit tests and rerun them immediately upon file modification."
+    cmds:
+      # Recommended coverage viewer in VSCode: https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters
+      # Note: also update .codecov.yml when changing the target coverage.
+      - poetry run ptw -- -- {{.CLI_ARGS}} -rx --cov --cov-report=lcov:lcov.info --cov-report=term:skip-covered --cov-fail-under=90 tests/unit/ tests/integration/
+
+  monitor-accuracy-tests:
+    desc: "Run unit tests and rerun them immediately upon file modification."
+    cmds:
+      - poetry run ptw --onpass="poetry run python -m tests.accuracy.structure_and_text.summarize_results" -- -- -rx tests/accuracy/
+
+  launch-docs:
+    desc: Start a local server to preview and automatically rebuild documentation upon file modification.
+    cmds:
+      - poetry run sphinx-autobuild docs/source docs/build/html
+
+########################################
+### Automated Code Testing Pipelines ###
+########################################
+
+  pre-commit-checks: 
+    desc: Execute all pre-commit checks before committing code. Run "pre-commit install" to have it run automatically during every commit.
+    cmds:
+      - task: unit-tests
+      - task: lint
+
+  pre-push-preparation:
+    desc: Execute this task before pushing to remote or creating a Pull Request to ensure code quality and consistency.
+    cmds:
+      - task: ensure-clean-working-tree
+      - task: lint
+      - task: ensure-clean-working-tree
+      - task: exploratory-tests
+      - task: update-dependencies
+      - task: ensure-clean-working-tree
+      - task: update-notebook-outputs
+      - task: ensure-clean-working-tree
+      - task: ci-checks
+      - task: ensure-clean-working-tree
+      - task: ensure-clean-working-tree-in-test-data
+      - task: accuracy-tests
+      - task: ensure-clean-working-tree-in-test-data
+
+  ci-checks:
+    desc: Execute all checks required for Continuous Integration. Useful for troubleshooting issues in the CI/CD pipeline.
+    cmds:
+      - task: unit-tests
+      - task: lint-without-autofix
+      - task: update-notebook-outputs
+      - task: snapshot-verify
+
+####################################
+### Additional Development Tools ###
+####################################
+
+  snapshot-verify:
+    desc: Compare the most recent parser output with the saved snapshot of the expected output. Fails if there's a mismatch. Run 'task snapshot-verify -- --help' to get help.
+    silent: true
+    cmds:
+      - task: clone-sec-parser-test-data
+      # Checking if the sec-parser-test-data directory has any changes in the working tree or index. If it does, aborting.
+      - task: ensure-clean-working-tree-in-test-data
+      - poetry run python -m tests.snapshot verify {{.CLI_ARGS}}
+
+  snapshot-update:
+    desc: Update the expected parser output snapshot with the most recent parser output. Run 'task snapshot-update -- --help' to get help.
+    silent: true
+    cmds:
+      - task: clone-sec-parser-test-data
+      - task: ensure-clean-working-tree
+      - poetry run python -m tests.snapshot update {{.CLI_ARGS}}
+      - "echo -e \"Please review the updated snapshot in sec-parser-test-data.\nIf correct, commit it to the repository.\nInclude the sec-parser hash in the commit message: $(git rev-parse HEAD)\""
+
+  exploratory-tests:
+    desc: Execute exploratory tests to check assumptions, find edge cases, and explore the behavior of the parser.
+    cmds:
+      - task: clone-sec-parser-test-data    
+      # Note: '-n auto' flag allows to run accuracy tests concurrently to speed up the testing process.
+      - poetry run pytest -rx -n auto tests/exploratory/
+
+  accuracy-tests:
+    desc: Execute accuracy tests to assess parser against a set of filings with known expected output.
+    cmds:
+      - task: clone-sec-parser-test-data
+      - poetry run pytest --with-saved-output --with-verbose-output {{.CLI_ARGS}} -rx tests/accuracy/
+      - poetry run python -m tests.accuracy.structure_and_text.summarize_results
+
+################################################################
+### Hidden: Primarily Used within Other Tasks or Used Rarely ###
+################################################################
+
+  unit-tests: # Execute unit tests and assess code coverage.
+    cmds:
+      # Recommended coverage viewer in VSCode: https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters
+      # Note: also update .codecov.yml when changing the target coverage.
+      - poetry run pytest -rx --cov --cov-report=lcov:lcov.info --cov-report=term:skip-covered --cov-fail-under=90 {{.CLI_ARGS}} tests/unit/ tests/integration/
+
+  integration-tests: # Execute integration tests.
+    cmds:
+      - poetry run pytest -rx {{.CLI_ARGS}} tests/integration/
+
+  lint: # Perform linting on the code and automatically fix issues.
+    cmds:
+      - poetry run ruff check --fix sec_parser/
+      - poetry run mypy
+
+  lint-without-autofix: # Perform linting on the code without auto-fixing issues.
+    cmds:
+      - poetry run ruff check sec_parser/
+      - poetry run mypy
+
+  update-notebook-outputs: # Run and verify all Jupyter notebooks in the documentation source folder, and refresh their output cells to ensure they execute without errors.
+    silent: true
+    cmds:
+      - echo "[Taskfile] Running and verifying Jupyter notebooks in the documentation source folder to ensure they execute without errors, while refreshing their output cells."
+      - for file in $(find {{.ROOT_DIR}}/docs/source/notebooks -name "*.ipynb"); do echo -n "Processing file \"$file\"... "; poetry run exec_nb --exc_stop $file --dest $file && echo "done!" || { echo "Processing failed for file \"$file\""; exit 1; }; done
+
+  ensure-clean-working-tree: # Ensure no changes in the working tree or index, abort if any.
+    silent: true
+    internal: true
+    cmds:
+      - if git diff --exit-code > /dev/null 2>&1 && git diff --cached --exit-code > /dev/null 2>&1; then :; else echo "Changes detected in the working tree or index. Please commit or stash them before proceeding."; exit 1; fi
+
+  ensure-clean-working-tree-in-test-data: # Ensure no changes in the working tree or index, abort if any.
+    silent: true
+    internal: true
+    cmds:
+      - cd "{{.ROOT_DIR}}/../sec-parser-test-data" && if git diff --exit-code > /dev/null 2>&1 && git diff --cached --exit-code > /dev/null 2>&1; then :; else echo "Changes detected in the working tree or index of the sec-parser-test-data repository. Please commit or stash them before proceeding."; exit 1; fi
+
+  version-bump: # Increment the version number.
+    cmds:
+      - poetry run cz bump {{.CLI_ARGS}}
+
+  push-version: # Push the latest tag to remote.
+    cmds:
+      - git push origin $(git describe --tags `git rev-list --tags --max-count=1`)
+
+  update-dependencies:
+    cmds:
+      - poetry update
+      - poetry export --with doc -f requirements.txt --output docs/rtd_requirements.txt
+
+  check-and-push:
+    cmds:
+      - task: ensure-clean-working-tree
+      - git pull --no-edit
+      - task: pre-push-preparation
+      - git push
+
+  clone-sec-parser-test-data: # Clone the 'sec-parser-test-data' repository if it's not already present.
+    silent: true
+    cmds:
+      - if [ -d "{{.ROOT_DIR}}/../sec-parser-test-data" ]; then :; else echo "Repository does not exist. Cloning from GitHub..."; git clone https://github.com/alphanome-ai/sec-parser-test-data "{{.ROOT_DIR}}/../sec-parser-test-data" || { echo "Directory ../sec-parser-test-data does not exist and git clone failed. Please use \"git clone\" to download it from https://github.com/alphanome-ai/sec-parser-test-data. Aborting."; exit 1; }; fi
+
+###################################################
+### Shorthand Tasks for Efficiency (may change) ###
+###################################################
+
+  c: # You can just run `task c` instead of `task pre-commit-checks`.
+    deps:
+      - pre-commit-checks
+
+  i: # You can just run `task i` instead of `task ci-checks`.
+    deps:
+      - ci-checks
+
+  ii: # You can just run `task ii` instead of `task pre-push-preparation`.
+    deps:
+      - pre-push-preparation
+
+  iii: # You can just run `task iii` instead of `task check-and-push`.
+    deps:
+      - check-and-push
+
+  d: # You can just run `task d` instead of `task launch-dashboard`.
+    deps:
+      - launch-dashboard
+
+  m: # You can just run `task m` instead of `task monitor-unit-tests`.
+    deps:
+      - monitor-unit-tests
+
+  x: # You can just run `task x` instead of `task launch-docs`.
+    deps:
+      - launch-docs
+
+  xx: # You can just run `task xx` instead of `task update-notebook-outputs`.
+    deps:
+      - update-notebook-outputs
+
+  e: # You can just run `task e` instead of `task exploratory-tests`.
+    deps:
+      - exploratory-tests
+
+  a: # You can just run `task a` instead of `task accuracy-tests`.
+    deps:
+      - accuracy-tests
+
+  v: # You can just run `task v` instead of `task version-bump`.
+    deps:
+      - version-bump
+
+  vv: # You can just run `task vv` instead of `task push-version`.
+    deps:
+      - push-version
+
+  full: # Full CI/CD pipeline.
+    cmds:
+      - task: check-and-push
+      - task: version-bump
+      - task: push-version
+
+  default:
+    silent: true
+    cmds:
+      - task --list
