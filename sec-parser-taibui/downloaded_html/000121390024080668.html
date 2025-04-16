@@ -1,0 +1,1717 @@
+<?xml version='1.0' encoding='ASCII'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dei="http://xbrl.sec.gov/dei/2024" xmlns:us-gaap="http://fasb.org/us-gaap/2024" xmlns:us-roles="http://fasb.org/us-roles/2024" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2022-03-31" xmlns:country="http://xbrl.sec.gov/country/2024" xmlns:srt="http://fasb.org/srt/2024" xmlns:SBC="http://sbcmedicalgroupholdingsincorporated.com/20240917">
+<head>
+     <title></title>
+<meta http-equiv="Content-Type" content="text/html"/>
+</head>
+<!-- Field: Set; Name: xdx; ID: xdx_02D_US%2DGAAP%2D2024 -->
+<!-- Field: Set; Name: xdx; ID: xdx_030_SBC_sbcmedicalgroupholdingsincorporated.com_20240917 -->
+<!-- Field: Set; Name: xdx; ID: xdx_04B_20240917_20240917 -->
+<!-- Field: Set; Name: xdx; ID: xdx_059_edei%2D%2DAmendmentFlag_false -->
+<!-- Field: Set; Name: xdx; ID: xdx_051_edei%2D%2DCurrentFiscalYearEndDate_%2D%2DLS0xMi0zMQ== -->
+<!-- Field: Set; Name: xdx; ID: xdx_055_edei%2D%2DEntityCentralIndexKey_0001930313 -->
+<!-- Field: Set; Name: xdx; ID: xdx_06B_USD_1_iso4217%2D%2DUSD -->
+<!-- Field: Set; Name: xdx; ID: xdx_062_Shares_2_xbrli%2D%2Dshares -->
+<!-- Field: Set; Name: xdx; ID: xdx_06D_USDPShares_3_iso4217%2D%2DUSD_xbrli%2D%2Dshares -->
+<body style="font: 10pt Times New Roman, Times, Serif">
+<div style="display: none">
+<ix:header>
+ <ix:hidden>
+  <ix:nonNumeric contextRef="AsOf2024-09-17" id="Fact000003" name="dei:AmendmentFlag">false</ix:nonNumeric>
+  <ix:nonNumeric contextRef="AsOf2024-09-17" id="Fact000004" name="dei:CurrentFiscalYearEndDate">--12-31</ix:nonNumeric>
+  <ix:nonNumeric contextRef="AsOf2024-09-17" id="Fact000005" name="dei:EntityCentralIndexKey">0001930313</ix:nonNumeric>
+  </ix:hidden>
+ <ix:references>
+  <link:schemaRef xlink:href="sbc-20240917.xsd" xlink:type="simple"/>
+  </ix:references>
+ <ix:resources>
+    <xbrli:context id="AsOf2024-09-17">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001930313</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2024-09-17</xbrli:startDate>
+        <xbrli:endDate>2024-09-17</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="From2024-09-172024-09-17_custom_CommonStock0.0001ParValuePerShareMember">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001930313</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">SBC:CommonStock0.0001ParValuePerShareMember</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2024-09-17</xbrli:startDate>
+        <xbrli:endDate>2024-09-17</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="From2024-09-172024-09-17_custom_RedeemableWarrantsEachWholeWarrantExercisableForOneShareOfCommonStockAtExercisePriceOf11.50PerShareMember">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001930313</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">SBC:RedeemableWarrantsEachWholeWarrantExercisableForOneShareOfCommonStockAtExercisePriceOf11.50PerShareMember</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2024-09-17</xbrli:startDate>
+        <xbrli:endDate>2024-09-17</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:unit id="USD">
+      <xbrli:measure>iso4217:USD</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="Shares">
+      <xbrli:measure>xbrli:shares</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="USDPShares">
+      <xbrli:divide>
+        <xbrli:unitNumerator>
+          <xbrli:measure>iso4217:USD</xbrli:measure>
+        </xbrli:unitNumerator>
+        <xbrli:unitDenominator>
+          <xbrli:measure>xbrli:shares</xbrli:measure>
+        </xbrli:unitDenominator>
+      </xbrli:divide>
+    </xbrli:unit>
+  </ix:resources>
+ </ix:header>
+</div>
+
+
+<p style="margin: 0pt"></p>
+
+<!-- Field: Rule-Page --><div style="width: 100%"><div style="border-top: Black 2pt solid; border-bottom: Black 1pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="margin: 0pt"></p>
+
+<p style="text-align: center; margin-top: 0pt; margin-bottom: 0pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b>UNITED STATES</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b>SECURITIES AND EXCHANGE COMMISSION</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b>WASHINGTON, D.C. 20549</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b>&#160;</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b>FORM <span id="xdx_90F_edei--DocumentType_c20240917__20240917_zGZ8LY3eZ09f"><ix:nonNumeric contextRef="AsOf2024-09-17" id="Fact000010" name="dei:DocumentType">8-K</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b>&#160;</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b>CURRENT REPORT</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">Pursuant to Section 13 or 15(d) of the Securities
+Exchange Act of 1934</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b>&#160;</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">Date of Report (Date of earliest event reported):
+<b><span id="xdx_907_edei--DocumentPeriodEndDate_c20240917__20240917_zbul3HZNcop4"><ix:nonNumeric contextRef="AsOf2024-09-17" format="ixt:datemonthdayyearen" id="Fact000011" name="dei:DocumentPeriodEndDate">September 17, 2024</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b>&#160;</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b><span id="xdx_906_edei--EntityRegistrantName_c20240917__20240917_zfgc634tDZ0k"><ix:nonNumeric contextRef="AsOf2024-09-17" id="Fact000012" name="dei:EntityRegistrantName">SBC Medical Group Holdings Incorporated</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">(Exact Name of Registrant as Specified in Its Charter)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td style="border-bottom: Black 1.5pt solid; vertical-align: bottom; width: 32%; text-align: center"><span style="font-size: 10pt"><b><span id="xdx_909_edei--EntityIncorporationStateCountryCode_c20240917__20240917_zFIbWBeq3xk4"><ix:nonNumeric contextRef="AsOf2024-09-17" format="ixt-sec:stateprovnameen" id="Fact000013" name="dei:EntityIncorporationStateCountryCode">Delaware</ix:nonNumeric></span></b></span></td>
+    <td style="text-align: center; width: 2%; vertical-align: bottom">&#160;</td>
+    <td style="border-bottom: Black 1.5pt solid; vertical-align: bottom; width: 32%; text-align: center"><span style="font-size: 10pt"><b><span id="xdx_90E_edei--EntityFileNumber_c20240917__20240917_zKdfwM1ob9rf"><ix:nonNumeric contextRef="AsOf2024-09-17" id="Fact000014" name="dei:EntityFileNumber">001-41462</ix:nonNumeric></span></b></span></td>
+    <td style="text-align: center; width: 2%; vertical-align: bottom">&#160;</td>
+    <td style="border-bottom: Black 1.5pt solid; vertical-align: bottom; width: 32%; text-align: center"><span style="font-size: 10pt"><b><span id="xdx_90D_edei--EntityTaxIdentificationNumber_c20240917__20240917_zWmAhzBu0fWg"><ix:nonNumeric contextRef="AsOf2024-09-17" id="Fact000015" name="dei:EntityTaxIdentificationNumber">88-1192288</ix:nonNumeric></span></b></span></td></tr>
+  <tr style="vertical-align: top">
+    <td style="vertical-align: top; text-align: center"><span style="font-size: 10pt">(State or Other Jurisdiction<br/>
+of Incorporation)</span></td>
+    <td style="text-align: center; vertical-align: top">&#160;</td>
+    <td style="vertical-align: top; text-align: center"><span style="font-size: 10pt">(Commission File Number)</span></td>
+    <td style="text-align: center; vertical-align: top">&#160;</td>
+    <td style="vertical-align: top; text-align: center"><span style="font-size: 10pt">(IRS Employer<br/>
+Identification No.)</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr>
+    <td style="border-bottom: Black 1.5pt solid; text-align: center; vertical-align: bottom; width: 49%">
+    <p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b><span id="xdx_907_edei--EntityAddressAddressLine1_c20240917__20240917_zhZASwzZqGx5"><ix:nonNumeric contextRef="AsOf2024-09-17" id="Fact000016" name="dei:EntityAddressAddressLine1">200 Spectrum Center Dr. STE 300</ix:nonNumeric></span></b></p>
+    <p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b><span id="xdx_906_edei--EntityAddressCityOrTown_c20240917__20240917_zuRZHv0drJL1"><ix:nonNumeric contextRef="AsOf2024-09-17" id="Fact000017" name="dei:EntityAddressCityOrTown">Irvine</ix:nonNumeric></span>, <span id="xdx_905_edei--EntityAddressStateOrProvince_c20240917__20240917_zeWgRpO48Nn"><ix:nonNumeric contextRef="AsOf2024-09-17" id="Fact000018" name="dei:EntityAddressStateOrProvince">CA</ix:nonNumeric> </span></b></p></td>
+    <td style="text-align: center; width: 2%; vertical-align: bottom">&#160;</td>
+    <td style="border-bottom: Black 1.5pt solid; vertical-align: bottom; width: 49%; text-align: center"><span style="font-size: 10pt"><b><span id="xdx_904_edei--EntityAddressPostalZipCode_c20240917__20240917_z1N4D9Pp7cQ8"><ix:nonNumeric contextRef="AsOf2024-09-17" id="Fact000019" name="dei:EntityAddressPostalZipCode">92618</ix:nonNumeric></span></b></span></td></tr>
+  <tr style="vertical-align: top">
+    <td style="vertical-align: top; text-align: center"><span style="font-size: 10pt">(Address of Principal Executive Offices)</span></td>
+    <td style="text-align: center; vertical-align: top">&#160;</td>
+    <td style="vertical-align: top; text-align: center"><span style="font-size: 10pt">(Zip Code)</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b><span id="xdx_908_edei--CityAreaCode_c20240917__20240917_zuNsR0DdMCNa"><ix:nonNumeric contextRef="AsOf2024-09-17" id="Fact000020" name="dei:CityAreaCode">949</ix:nonNumeric></span>-<span id="xdx_904_edei--LocalPhoneNumber_c20240917__20240917_z46AxsxMEwzf"><ix:nonNumeric contextRef="AsOf2024-09-17" id="Fact000021" name="dei:LocalPhoneNumber">593-0250</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">(Registrant&#8217;s Telephone Number, Including
+Area Code)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b>Pono Capital Two, Inc.</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b>643 Ilalo St. #102</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b>Honolulu, Hawaii 96813</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">(Former Name or Former Address, if Changed Since
+Last Report)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Check the appropriate box below if the Form 8-K
+filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%">
+  <tr style="vertical-align: top">
+    <td style="width: 24px"><span style="font: normal 10pt Times New Roman, Times, Serif"><span id="xdx_90E_edei--WrittenCommunications_c20240917__20240917_z0l5A6YI47C2"><ix:nonNumeric contextRef="AsOf2024-09-17" format="ixt:booleanfalse" id="Fact000022" name="dei:WrittenCommunications">&#9744;</ix:nonNumeric></span></span></td>
+    <td><span style="font-size: 10pt">Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%">
+  <tr style="vertical-align: top">
+    <td style="width: 24px"><span style="font: normal 10pt Times New Roman, Times, Serif"><span id="xdx_908_edei--SolicitingMaterial_c20240917__20240917_zxOVe5BTyije"><ix:nonNumeric contextRef="AsOf2024-09-17" format="ixt:booleanfalse" id="Fact000023" name="dei:SolicitingMaterial">&#9744;</ix:nonNumeric></span></span></td>
+    <td><span style="font-size: 10pt">Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%">
+  <tr style="vertical-align: top">
+    <td style="width: 24px"><span style="font: normal 10pt Times New Roman, Times, Serif"><span id="xdx_90B_edei--PreCommencementTenderOffer_c20240917__20240917_z2BUxUb1tzBf"><ix:nonNumeric contextRef="AsOf2024-09-17" format="ixt:booleanfalse" id="Fact000024" name="dei:PreCommencementTenderOffer">&#9744;</ix:nonNumeric></span></span></td>
+    <td><span style="font-size: 10pt">Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%">
+  <tr style="vertical-align: top">
+    <td style="width: 24px"><span style="font: normal 10pt Times New Roman, Times, Serif"><span id="xdx_909_edei--PreCommencementIssuerTenderOffer_c20240917__20240917_zrWhXZ2Pvojk"><ix:nonNumeric contextRef="AsOf2024-09-17" format="ixt:booleanfalse" id="Fact000025" name="dei:PreCommencementIssuerTenderOffer">&#9744;</ix:nonNumeric></span></span></td>
+    <td><span style="font-size: 10pt">Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-right: 0; margin-bottom: 0pt; text-align: left">Securities registered pursuant to Section 12(b)
+of the Act:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td style="border-bottom: Black 1.5pt solid; vertical-align: bottom; width: 34%; text-align: center"><span style="font-size: 10pt">Title of each class</span></td>
+    <td style="text-align: center; width: 1%; vertical-align: bottom">&#160;</td>
+    <td style="border-bottom: Black 1.5pt solid; vertical-align: bottom; width: 32%; text-align: center"><span style="font-size: 10pt">Trading Symbol(s)</span></td>
+    <td style="text-align: center; width: 1%; vertical-align: bottom">&#160;</td>
+    <td style="border-bottom: Black 1.5pt solid; vertical-align: bottom; width: 32%; text-align: center"><span style="font-size: 10pt">Name of each exchange on which registered</span></td></tr>
+  <tr style="vertical-align: top; background-color: rgb(204,238,255)">
+    <td style="text-align: center"><span style="font-size: 10pt"><span id="xdx_90E_edei--Security12bTitle_c20240917__20240917__us-gaap--StatementClassOfStockAxis__custom--CommonStock0.0001ParValuePerShareMember_zuA20Ch2Jft"><ix:nonNumeric contextRef="From2024-09-172024-09-17_custom_CommonStock0.0001ParValuePerShareMember" id="Fact000026" name="dei:Security12bTitle">Common Stock, $0.0001 par value per share</ix:nonNumeric></span></span></td>
+    <td>&#160;</td>
+    <td style="text-align: center"><span style="font-size: 10pt"><span id="xdx_90B_edei--TradingSymbol_c20240917__20240917__us-gaap--StatementClassOfStockAxis__custom--CommonStock0.0001ParValuePerShareMember_zfohss1x9icg"><ix:nonNumeric contextRef="From2024-09-172024-09-17_custom_CommonStock0.0001ParValuePerShareMember" id="Fact000027" name="dei:TradingSymbol">SBC</ix:nonNumeric></span></span></td>
+    <td>&#160;</td>
+    <td style="text-align: center"><span style="font-size: 10pt">The <span id="xdx_903_edei--SecurityExchangeName_c20240917__20240917__us-gaap--StatementClassOfStockAxis__custom--CommonStock0.0001ParValuePerShareMember_ze0nLUAJlUP1"><ix:nonNumeric contextRef="From2024-09-172024-09-17_custom_CommonStock0.0001ParValuePerShareMember" format="ixt-sec:exchnameen" id="Fact000028" name="dei:SecurityExchangeName">Nasdaq</ix:nonNumeric></span> Stock Market LLC</span></td></tr>
+  <tr style="vertical-align: top; background-color: White">
+    <td style="text-align: center"><span style="font-size: 10pt"><span id="xdx_903_edei--Security12bTitle_c20240917__20240917__us-gaap--StatementClassOfStockAxis__custom--RedeemableWarrantsEachWholeWarrantExercisableForOneShareOfCommonStockAtExercisePriceOf11.50PerShareMember_zalQQ875jvOe"><ix:nonNumeric contextRef="From2024-09-172024-09-17_custom_RedeemableWarrantsEachWholeWarrantExercisableForOneShareOfCommonStockAtExercisePriceOf11.50PerShareMember" id="Fact000029" name="dei:Security12bTitle">Redeemable Warrants, each whole warrant exercisable for one share of Common Stock at an exercise price of $11.50 per share</ix:nonNumeric></span></span></td>
+    <td>&#160;</td>
+    <td style="text-align: center"><span style="font-size: 10pt"><span id="xdx_902_edei--TradingSymbol_c20240917__20240917__us-gaap--StatementClassOfStockAxis__custom--RedeemableWarrantsEachWholeWarrantExercisableForOneShareOfCommonStockAtExercisePriceOf11.50PerShareMember_z46f5A7YLm0f"><ix:nonNumeric contextRef="From2024-09-172024-09-17_custom_RedeemableWarrantsEachWholeWarrantExercisableForOneShareOfCommonStockAtExercisePriceOf11.50PerShareMember" id="Fact000030" name="dei:TradingSymbol">SBCWW</ix:nonNumeric></span></span></td>
+    <td>&#160;</td>
+    <td style="text-align: center"><span style="font-size: 10pt">The <span id="xdx_903_edei--SecurityExchangeName_c20240917__20240917__us-gaap--StatementClassOfStockAxis__custom--RedeemableWarrantsEachWholeWarrantExercisableForOneShareOfCommonStockAtExercisePriceOf11.50PerShareMember_zrFt2IU6T2hh"><ix:nonNumeric contextRef="From2024-09-172024-09-17_custom_RedeemableWarrantsEachWholeWarrantExercisableForOneShareOfCommonStockAtExercisePriceOf11.50PerShareMember" format="ixt-sec:exchnameen" id="Fact000031" name="dei:SecurityExchangeName">Nasdaq</ix:nonNumeric></span> Stock Market LLC</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Indicate by check mark whether the registrant
+is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 or Rule 12b-2 of the Securities Exchange Act of 1934.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Emerging growth company <span style="font-family: Times New Roman, Times, Serif"><span id="xdx_903_edei--EntityEmergingGrowthCompany_c20240917__20240917_zfPmIBrjjRnl"><ix:nonNumeric contextRef="AsOf2024-09-17" format="ixt:booleantrue" id="Fact000032" name="dei:EntityEmergingGrowthCompany">&#9746;</ix:nonNumeric></span></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">If an emerging growth company, indicate by check
+mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting
+standards provided pursuant to Section 13(a) of the Exchange Act. <span style="font-family: Times New Roman, Times, Serif"><span id="xdx_907_edei--EntityExTransitionPeriod_c20240917__20240917_zVH06pUpyS2h"><ix:nonNumeric contextRef="AsOf2024-09-17" format="ixt:booleanfalse" id="Fact000033" name="dei:EntityExTransitionPeriod">&#9744;</ix:nonNumeric></span></span>&#160;&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></p>
+
+<!-- Field: Rule-Page --><div style="width: 100%"><div style="border-top: Black 1pt solid; border-bottom: Black 2pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+
+<!-- Field: Page; Sequence: 1 -->
+    <div style="border-bottom: Black 1.5pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="font: normal 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt">&#160;</p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b>Introductory Note</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">On September 17, 2024, following the approval at the special meeting
+of the shareholders of Pono Capital Two, Inc., a Delaware corporation (&#8220;<b>Pono</b>&#8221;) held on August 23, 2024 (the &#8220;<b>Special
+Meeting</b>&#8221;), Pono Two Merger Sub, Inc., a Delaware corporation (&#8220;<b>Merger Sub</b>&#8221;) and a wholly-owned subsidiary
+of Pono, consummated a merger (the &#8220;<b>Merger</b>&#8221;) with and into SBC Medical Group Holdings Incorporated, a Delaware corporation
+(&#8220;<b>SBC</b>&#8221;) pursuant to an Agreement and Plan of Merger, dated as of January 31, 2023 and as amended and restated on June
+21, 2023 (as amended by Amendment No. 1, dated September 8, 2023, Amendment No. 2, dated October 26, 2023, Amendment No. 3, dated December
+28, 2023, and Amendment No. 4, dated April 22, 2024, the &#8220;<b>Merger Agreement</b>&#8221;), by and among Pono, Merger Sub, SBC, Mehana
+Capital LLC, a Delaware limited liability company (&#8220;<b>Sponsor</b>&#8221; or &#8220;<b>Purchaser Representative</b>&#8221;) in its
+capacity as the representative of the stockholders of Pono, and Yoshiyuki Aikawa in his personal capacity and his capacity as the representative
+of the stockholders of SBC (&#8220;<b>Seller Representative</b>&#8221;). Accordingly, the Merger Agreement was adopted, and the Merger
+and other transactions contemplated thereby (collectively, the &#8220;<b>Business Combination</b>&#8221;) were approved and completed.
+At the closing on September 17, 2024 of the Business Combination pursuant to the Merger Agreement, Merger Sub merged with and into SBC
+with SBC surviving the Merger as a wholly-owned subsidiary of Pono, and Pono changed its name to &#8220;SBC Medical Group Holdings Incorporated.&#8221;
+On September 17, 2024, SBC changed its named to SBC Medical Group, Inc.</p>
+
+<p style="font: normal 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-indent: 0in; text-align: justify"><span style="font-size: 10pt"><b>Item&#160;1.01.
+Entry into Material Definitive Agreement.</b></span></p>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Merger Agreement and Amendments Thereto&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">As disclosed under the section titled &#8220;<b><i>The Merger Agreement</i></b>&#8221;
+of the Current Report on Form&#160;8-K&#160;filed by Pono on February 2, 2023, the parties entered into the Merger Agreement, dated as
+of January 31, 2023, by and among Pono, Merger Sub, the Sponsor in its capacity as the representative of the stockholders of Pono, Yoshiyuki
+Aikawa in his personal capacity and his capacity as the representative of the stockholders of SBC, and SBC.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">As disclosed in the Current Report on Form&#160;8-K&#160;filed by Pono
+on May 1, 2023, the parties to the Merger Agreement entered into that certain First Amendment to the Merger Agreement on April 26, 2023
+(the &#8220;<b>First Amendment</b>&#8221;). <span style="background-color: white">Prior to the First Amendment, the Merger Agreement provided
+that the 1,200,000 Sponsor Shares will be issued to the Sponsor on the date that is the earlier of (a) the six (6) month anniversary of
+the Closing or (b) the expiration of the &#8220;Founder Shares Lock-up Period&#8221; (as defined in Pono&#8217;s Insider Letter with the
+initial stockholders). Pursuant to the Amendment, the Sponsor in its sole discretion may direct Pono to issue all or a portion of the
+Sponsor Shares on an earlier or later date as it may determine, which date will not be earlier than the Closing. In addition, pursuant
+to the Amendment, the date by which (i) SBC will complete its agreed upon disclosure schedules, (ii) Pono will complete its due diligence
+review of SBC, and (iii) the parties to the Merger Agreement will agree upon any modifications or amendments to the Merger Agreement to
+the terms and conditions therein, among other related matters, was extended from April 28, 2023 to May 31, 2023. SBC also agreed to purchase,
+or to cause one of its Affiliates to purchase, equity in the Sponsor in an amount equal to $1,000,000, by way of a separate agreement
+to be entered into on or before May 5, 2023. In </span>the <span style="background-color: white">event that the parties fail to agree
+upon and execute the investment documents by May 5, 2023, then, for a period of two business days thereafter, either party may terminate
+the Merger Agreement by providing written notice to the other party. In the event that SBC does not make payment for the investment on
+or before May 15, 2023, then, for a period of two business days thereafter, Pono may terminate the Merger Agreement by providing written
+notice to SBC.</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">As disclosed in the Current Report on Form&#160;8-K&#160;filed by Pono
+on June 2, 2023, the parties to the Merger Agreement entered into that certain Second Amendment to the Merger Agreement on May 30, 2023
+(the &#8220;<b>Second Amendment</b>&#8221;). <span style="background-color: white">Prior to the Second Amendment, the Merger Agreement
+provided that the date by which (i) SBC shall complete its agreed upon disclosure schedules, (ii) Pono shall complete its due diligence
+review of SBC, and (iii) the parties to the Merger Agreement shall </span>agree <span style="background-color: white">upon any modifications
+or amendments to the Merger Agreement to the terms and conditions therein, among other related matters, was May 31, 2023. The Second Amendment
+extended the date by which these actions shall be completed to June 15, 2023.</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></p>
+
+<!-- Field: Page; Sequence: 2; Options: NewSection; Value: 1 -->
+    <div style="border-bottom: Black 1.5pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->1<!-- Field: /Sequence --></span></p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">As disclosed in the Current Report on Form&#160;8-K&#160;filed by Pono
+on June 16, 2023, the parties to the Merger Agreement entered into that certain Third Amendment to the Merger Agreement on June 15, 2023
+(the &#8220;<b>Third Amendment</b>&#8221;). <span style="background-color: white">Prior to the Third </span>Amendment<span style="background-color: white">,
+the Merger Agreement provided that the date by which (i) SBC shall complete its agreed upon disclosure schedules, (ii) Pono shall complete
+its due diligence review of SBC, and (iii) the parties to the Merger Agreement shall agree upon any modifications or amendments to the
+Merger Agreement to the terms and conditions therein, among other related matters, was June 15, 2023. The Third Amendment extended the
+date by which these actions shall be completed to June 22, 2023.</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">As disclosed in the Current Report on Form&#160;8-K&#160;filed by Pono
+on June 22, 2023, the parties to the Merger Agreement entered into an Amended and Restated Agreement and Plan of Merger on June 21, 2023
+(the &#8220;<b>A&amp;R Merger Agreement</b>&#8221;). Prior to the A&amp;R Merger Agreement, the Merger Agreement provided that by June
+22, 2023: (i) SBC shall complete its agreed upon disclosure schedules, (ii) Pono shall complete its due diligence review of SBC, and (iii)
+the parties to the Original Agreement shall agree upon any modifications or amendments to the Original Agreement to the terms and conditions
+therein. The parties entered into the A&amp;R Merger Agreement in connection with such requirements. Unless otherwise defined herein,
+the capitalized terms used in this paragraph are defined in the A&amp;R Merger Agreement. The A&amp;R Merger Agreement revised the target
+companies to be directly or indirectly purchased by Pono following a restructuring of SBC&#8217;s corporate structure, to include only
+the Service Companies and Other Entities, and to no longer include the direct or indirect purchase of SBC&#8217;s Medical Corporations,
+and as a result, removed other references to the Medical Corporations, including the related representations and warranties, among others.
+Pursuant to the A&amp;R Merger Agreement, the parties agreed that, following the date of the A&amp;R Merger Agreement, SBC will use its
+commercially reasonable efforts to complete its disclosure schedules and deliver them to Pono by August 31, 2023. Upon delivery of the
+disclosure schedules to Pono, the disclosure schedules will be deemed to modify and supplement SBC&#8217;s representations and warranties
+set forth in the A&amp;R Merger Agreement. In the event that SBC&#8217;s disclosure schedules are not delivered to Pono by August 31,
+2023, or in the event that the disclosure schedules are so delivered by such deadline, but thereafter Pono reasonably determines that
+there are matters or items disclosed in the disclosure schedules which are materially adverse to the operations of the target companies,
+then, for a period of two business days following the delivery of the disclosure schedules, Pono has the right to terminate the A&amp;R
+Merger Agreement upon written notice to SBC. The A&amp;R Merger Agreement also extended the date by which the Closing shall occur from
+September 30, 2023 (subject to extension) to December 31, 2023. Pursuant to the A&amp;R Merger Agreement, the parties also&#160;agreed
+that any future expenses incurred in connection with the extension of the time by which Pono must complete its initial business combination
+shall be borne entirely by Pono, which replaces and supersedes the prior requirement under the Original Agreement for Pono and SBC to
+share such expenses equally.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><span style="background-color: white">As disclosed in the Current Report
+on Form 8-K filed by Pono on September 11, 2023, the parties to the Merger Agreement entered into that certain First Amendment to the
+Amended and Restated Agreement and Plan of Merger on September 8, 2023 (the &#8220;<b>Amendment No. 1</b>&#8221;). Prior to the Amendment
+No. 1, the Merger Agreement provided for the holders of SBC securities collectively to be entitled to receive from Pono, in the aggregate,
+a number of Pono securities with an aggregate value equal to (the &#8220;<b>Merger Consideration</b>&#8221;) (a) $1,200,000,000, minus
+(b) the amount, if any, by which $3,000,000 exceeds SBC&#8217;s Net Working Capital, plus (c) the amount, if any, by which SBC&#8217;s
+Net Working Capital exceeds $3,000,000, minus (d) the aggregate amount of any outstanding indebtedness (minus cash held by SBC) of SBC
+at Closing, minus (e) specified transaction expenses of SBC associated with the Business Combination. Pursuant to the Amendment, the $1,200,000,000
+amount in the Merger Consideration calculation above was reduced to $1,000,000,000.</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><span style="background-color: white">As disclosed in the Current Report
+on Form 8-K filed by Pono on October 26, 2023, the parties to the Merger Agreement entered into that certain Second Amendment to the Amended
+and Restated Merger Agreement on October 26, 2023 (the &#8220;<b>Amendment No. 2</b>&#8221;). Prior to the Amendment No. 2, the Pono board
+of directors as of the Closing was to be designated as follows: (i) three persons designated prior to the Closing by SBC, two of whom
+must qualify as independent directors; (ii) one person designated prior to the Closing by Pono; and (iii) one person mutually agreed upon
+and designated prior to the Closing by Pono and SBC, who must qualify as an independent director. Following the Amendment No. 1, the Pono
+board of directors as of the Closing will be designated as follows: (i) three persons designated prior to the Closing by SBC, at least
+one of whom must qualify as an independent director; (ii) one person designated prior to the Closing by Pono, who must qualify as an independent
+director; and (iii) one person mutually agreed upon and designated prior to the Closing by Pono and SBC, who must qualify as an independent
+director.</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 3; Value: 1 -->
+    <div style="border-bottom: Black 1.5pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->2<!-- Field: /Sequence --></span></p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><span style="background-color: white">As disclosed in the Current Report
+on Form 8-K filed by Pono on December 29, 2023, the parties to the Merger Agreement entered into that certain Third Amendment to the Amended
+and Restated Merger Agreement on December 28, 2023 (the &#8220;<b>Amendment No. 3</b>&#8221;). Amendment No. 3 was entered into solely
+to extend the Outside Date (as defined in the Merger Agreement) from December 31, 2023 to March 31, 2024.</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><span style="background-color: white">As disclosed in the Current Report
+on Form 8-K filed by Pono on April 23, 2024, the parties to the Merger Agreement entered into that certain Fourth Amendment to the Amended
+and Restated Merger Agreement on April 22, 2024 (the &#8220;<b>Amendment No. 4</b>&#8221;). Amendment No. 4 was entered into solely to
+extend the Outside Date (as defined in the Merger Agreement) to September 30, 2024.</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Accordingly, on September 17, 2024 (a) Merger Sub merged with and into
+SBC with SBC surviving the Merger as a wholly-owned subsidiary of Pono, and (b)&#160;Pono, which had been formed as a Delaware corporation
+solely for the purpose of facilitating the Business Combination, changed its name to SBC Medical Group Holdings Incorporated. On September
+17, 2024, SBC changed its named to SBC Medical Group, Inc. Except where context provides otherwise, the term &#8220;<b>SBC Medical Group
+Holdings Incorporated</b>&#8221; refers to SBC Medical Group Holdings Incorporated and its consolidated subsidiaries, including SBC and
+after giving effect to the Business Combination and referred to herein as the &#8220;<b>Company</b>.&#8221;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Item 2.01 of this Current Report discusses the consummation of the
+Business Combination and events contemplated by the Merger Agreement which took place on September 17, 2024 (the &#8220;<b>Closing</b>&#8221;),
+and is incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The foregoing description of the Merger Agreement, the First Amendment,
+the Second Amendment, the Third Amendment, the A&amp;R Merger Agreement, Amendment No. 1, Amendment No. 2, Amendment No. 3 and Amendment
+No. 4 is subject to and qualified in its entirety by reference to the full text of the Merger Agreement the First Amendment, the Second
+Amendment, the Third Amendment, the A&amp;R Merger Agreement, Amendment No. 1, Amendment No. 2, Amendment No. 3 and Amendment No. 4, copies
+of which are included as Exhibits 2.1 through 2.9 hereto, and the terms of which are incorporated by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Lock-up&#160;Agreements&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; background-color: white">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; background-color: white">In connection with
+the Business Combination, certain stockholders of SBC and certain of SBC&#8217;s officers and directors (such stockholders, the
+&#8220;<b>Company Holders</b>&#8221;) entered
+into&#160;a&#160;lock-up&#160;agreement&#160;(the&#160;&#8220;<b>Lock-up&#160;Agreement</b>&#8221;) pursuant to which they will be
+contractually restricted, during the&#160;Lock-up&#160;Period (as defined below), from selling or transferring any of (i)&#160;their
+shares of SBC common stock held immediately following the Closing and (ii)&#160;any of their shares of SBC common stock that result
+from converting securities held immediately following the Closing (the &#8220;<b>Lock-up&#160;Shares</b>&#8221;). The
+&#8220;<b>Lock-up&#160;Period</b>&#8221; means the period commencing at Closing and end the earliest of: (a)&#160;six months from
+the Closing, (b) the date the Company consummates a liquidation, merger, share exchange or other similar transaction with an
+unaffiliated third party that results in all of the Company&#8217;s stockholders having the right to exchange their shares of common
+stock for cash, securities or other property and (c)&#160;the date on which the closing sale price of the Company&#8217;s common
+stock equals or exceeds $12.00 per share (as adjusted for stock splits, stock dividends, reorganizations and recapitalizations and
+the like) for any twenty (20)&#160;trading days within any thirty (30)&#160;trading day period commencing at least one hundred and
+fifty (150)&#160;days after the Closing; provided that &#8531; of such restricted shares shall be released from such
+restrictions if the closing stock price of the Company&#8217;s common stock reaches each of $13.00, $15.00, and $17.00.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; background-color: white">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; background-color: white">The Sponsor is subject to&#160;a&#160;lock-up&#160;pursuant&#160;to&#160;a
+letter agreement (the &#8220;<b>Sponsor</b>&#160;<b>Lock-up&#160;Agreement</b>&#8221;), entered into at the time of the IPO (as defined
+below), among Pono, the Sponsor and the other parties thereto, pursuant to which the Sponsor is subject to&#160;a&#160;lock-up&#160;beginning&#160;on
+the Closing and end the earliest of: (a)&#160;six months from the Closing, (b)&#160;the date the Company consummates a liquidation, merger,
+share exchange or other similar transaction with an unaffiliated third party that results in all of the Company&#8217;s stockholders having
+the right to exchange their shares of the Company&#8217;s common stock for cash, securities or other property and (c)&#160;the date on
+which the closing sale price of the Company&#8217;s common stock equals or exceeds $12.00 per share (as adjusted for stock splits, stock
+dividends, reorganizations and recapitalizations and the like) for any twenty (20)&#160;trading days within any thirty (30)&#160;trading
+day period commencing at least one hundred and fifty (150)&#160;days after the Closing; provided that &#8531; of such restricted shares
+shall be released from such restrictions if the closing stock price of Pono common stock reaches each of $13.00, $15.00, and $17.00. &#8220;<b>IPO</b>&#8221;
+means Pono&#8217;s public offering of 11,500,000 units (the &#8220;<b>Units</b>&#8221;) at $10.00 per Unit, generating gross proceeds
+of $115,000,000, which was consummated on August&#160;9, 2022.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; background-color: white">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; background-color: white"></p>
+
+<!-- Field: Page; Sequence: 4; Value: 1 -->
+    <div style="border-bottom: Black 1.5pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->3<!-- Field: /Sequence --></span></p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; background-color: white">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; background-color: white">The foregoing description of the&#160;Lock-up&#160;Agreement
+and Sponsor&#160;Lock-up&#160;Agreement is subject to and qualified in its entirety by reference to the full text of the&#160;Lock-up&#160;Agreement
+and Sponsor&#160;Lock-up&#160;Agreement, copies of which is included as Exhibits 10.4 and 10.5 hereto, and the terms of which are incorporated
+by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Indemnification Agreements&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">On September 17, 2024, SBC entered into indemnification agreements,
+with each of SBC&#8217;s directors containing provisions which are in some respects broader than the specific indemnification provisions
+contained in the Delaware General Corporation Law. The indemnification agreements will require SBC, among other things, to indemnify its
+directors against certain liabilities that may arise by reason of their status or service as directors and to advance their expenses incurred
+as a result of any proceeding against them as to which they could be indemnified.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The foregoing description of the indemnification agreement does not
+purport to be complete and is qualified in its entirety by the terms and conditions of the indemnification agreement, a form of which
+is attached hereto as Exhibit 10.2 and is incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Non-Competition&#160;and&#160;Non-Solicitation&#160;Agreements&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Following execution of the Merger Agreement, certain significant stockholders
+of SBC entered&#160;into&#160;non-competition&#160;and&#160;non-solicitation&#160;agreements&#160;(the &#8220;<b>Non-Competition&#160;and&#160;Non-Solicitation&#160;Agreements</b>&#8221;),
+pursuant to which they agreed not to compete with Pono, SBC and their respective subsidiaries during&#160;the&#160;two-year&#160;period&#160;following
+the Closing and, during&#160;such&#160;two-year&#160;restricted&#160;period, not to solicit employees or customers or clients of such
+entities. The&#160;Non-Competition&#160;and&#160;Non-Solicitation&#160;Agreements also contain customary&#160;non-disparagement&#160;and
+confidentiality provisions.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The foregoing description of the&#160;Non-Competition&#160;and&#160;Non-Solicitation&#160;Agreements
+is subject to and qualified in its entirety by reference to the full text of the form of the&#160;Non-Competition&#160;and&#160;Non-Solicitation&#160;Agreements,
+a copy of which is included as Exhibit 10.12 hereto, and the terms of which are incorporated by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Registration Rights Agreements&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">At the Closing of the Business Combination, certain significant stockholders
+of SBC entered into a registration rights agreement with Pono providing for the right to three demand registrations, piggy-back registrations
+and shelf registrations with respect to the Merger Consideration shares.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The foregoing description of the Registration Rights Agreement is subject
+to and qualified in its entirety by reference to the full text of the form of the Registration Rights Agreement, a copy of which is included
+as Exhibit 10.3 hereto, and the terms of which are incorporated by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Purchaser Support Agreement&#160; </i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Simultaneously with the execution of the Merger Agreement, the Purchaser
+Representative entered into a support agreement (the &#8220;<b>Purchaser Support Agreement</b>&#8221;) in favor of Pono and SBC and their
+present and future successors and subsidiaries. In the Purchaser Support Agreement, the Purchaser Representative agreed to vote all equity
+interests in Pono in favor of the Merger Agreement and related transactions and to take certain other actions in support of the Merger
+Agreement and related transactions. The Purchaser Support Agreement also prevents the Purchaser Representative from transferring its voting
+rights with respect to equity interests in Pono or otherwise transferring equity interests in Pono prior to the meeting of Pono&#8217;s
+stockholders to approve the Merger Agreement and related transactions, except for certain permitted transfers.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The foregoing description of the Purchaser Support Agreement does not
+purport to be complete and is qualified in its entirety by the terms and conditions of the Purchaser Support Agreement, the form of which
+is filed as&#160;Exhibit 10.6&#160;hereto and incorporated by reference herein.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b><i></i></b></p>
+
+<!-- Field: Page; Sequence: 5; Value: 1 -->
+    <div style="border-bottom: Black 1.5pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->4<!-- Field: /Sequence --></span></p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Voting Agreement&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Simultaneously with the execution of the Merger Agreement, certain
+stockholders of SBC entered into a voting agreement (the &#8220;<b>Voting Agreement</b>&#8221;) in favor of Pono and SBC and their present
+and future successors and subsidiaries. In the Voting Agreement for certain stockholders of SBC, they each agreed to vote all of their
+SBC stock interests in favor of the Merger Agreement and related transactions and to take certain other actions in support of the Merger
+Agreement and related transactions. The Voting Agreement also prevents them from transferring their voting rights with respect to their
+SBC stock or otherwise transferring their SBC stock prior to the SBC approval of the Merger Agreement and related transactions, except
+for certain permitted transfers.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The foregoing description of the Voting Agreement does not purport
+to be complete and is qualified in its entirety by the terms and conditions of the Voting Agreement, a copy of which, or the form of which,
+is filed as&#160;Exhibit 10.7&#160;hereto and incorporated by reference herein.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Executive Employment Agreements&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">On September 17, 2024, the Company entered into employment agreements
+(the &#8220;<b>Employment Agreements</b>&#8221;) with executive officers: Dr. Yoshiyuki Aikawa (Chief Executive Officer), Yuya Yoshida
+(Chief Operating Officer), Ryoji Murata (Chief Financial Officer) and Akira Komatsu (Chief Strategy Officer and Secretary).</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Employment Agreements all provide for&#160;at-will&#160;employment
+that may be terminated by the Company for death or disability and with or without cause, by the executive with or without good reason,
+or mutually terminated by the parties. The Employment Agreements for Dr. Aikawa and Messrs. Yoshida, Murata and Komatsu provide for a
+severance payment equal to the remaining base salary for the remaining period of the respective term of employment (each term is one (1)&#160;year)
+upon termination by the Company without cause or termination by such executive for good reason. The executive agreements provide for an
+annual base salary of $12,000,000, $304,404, $136,990 and $75,041 for Dr. Aikawa and Messrs. Yoshida, Murata and Komatsu, respectively,
+as well as possible annual performance bonuses and equity grants under the equity incentive plan if and when determined by the Company&#8217;s
+Compensation Committee.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">This summary is qualified in its entirety by reference to the text
+of the employment agreements, which are included as Exhibits 10.8, 10.9, 10.10 and 10.11 to this Current Report on Form&#160;8-K&#160;and
+is incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-indent: 0in; text-align: justify"><span style="font-size: 10pt"><b>Item&#160;2.01.
+Completion of Acquisition or Disposition of Assets.</b></span></p>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The disclosure set forth in the &#8220;Introductory Note&#8221; and
+&#8220;Merger Agreement and Amendments Thereto&#8221; above is incorporated into this Item 2.01 by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Pursuant to the terms of the Merger Agreement, the total consideration
+for the Business Combination and related transactions (the &#8220;<b>Merger Consideration</b>&#8221;) was approximately $1.076&#160;million.
+In connection with the Special Meeting, holders of 135,471 shares of Pono common stock sold in its initial public offering exercised their
+right to redeem those shares for cash prior to the redemption deadline of August 21, 2024, at a price of $11.05 per share, for an aggregate
+payment from Pono&#8217;s trust account of approximately $1.5&#160;million. Effective September 17, 2024, Pono&#8217;s units ceased trading,
+and effective September 18, 2024, SBC&#8217;s common stock began trading on the Nasdaq Global Market under the symbol &#8220;SBC&#8221;
+and the warrants began trading on the Nasdaq Capital Market under the symbol &#8220;SBCWW.&#8221;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">After taking into account the aggregate payment in respect of the redemption,
+Pono&#8217;s trust account had a balance immediately prior to the Closing of approximately $16.731 million. Such balance in the trust
+account was used to pay transaction expenses and other liabilities of Pono, pay certain transaction expenses of SBC, with the remaining
+being deposited in SBC cash account.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 6; Value: 1 -->
+    <div style="border-bottom: Black 1.5pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->5<!-- Field: /Sequence --></span></p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Merger Consideration will be subject to a post-Closing true up
+90 days after the Closing.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">As a result of the Merger and the Business Combination, holders of
+Pono common stock automatically received common stock of SBC, and holders of Pono warrants automatically received warrants of SBC with
+substantively identical terms. At the Closing of the Business Combination, all shares of Pono owned by the Sponsor (consisting of shares
+of Class&#160;A common stock and shares of Class&#160;B common stock), which we refer to as the founder shares, automatically converted
+into an equal number of shares of SBC&#8217;s common stock, and Private Placement Warrants held by the Sponsor, automatically converted
+into warrants to purchase one share of SBC common stock with substantively identical terms.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">As of the Closing there were 100,743,253 shares
+of common stock: public stockholders own approximately 1.5% (1,513,945 shares) of the outstanding shares of SBC common stock; the Sponsor
+and its affiliates own approximately 4.8% (4,709,375 shares) of the outstanding shares of SBC common stock and SBC&#8217;s former security
+holders collectively own approximately 93.7% (94,462,433 shares) of the outstanding shares of SBC common stock.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b>&#160;</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b>FORM 10 INFORMATION</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Item 2.01(f) of Form&#160;8-K&#160;states that if the predecessor registrant
+was a shell company, as Pono was immediately before the Business Combination, then the registrant must disclose the information that would
+be required if the registrant were filing a general form for registration of securities on Form 10. Accordingly, SBC is providing the
+information below that would be included in a Form 10 if SBC were to file a Form 10. Please note that the information provided below relates
+to SBC as the combined company after the consummation of the Business Combination, unless otherwise specifically indicated or the context
+otherwise requires.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Forward-Looking Statements&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">This Current Report on Form&#160;8-K&#160;contains &#8220;forward-looking
+statements&#8221; within the meaning of the Private Securities Litigation Reform Act of 1995. Such statements include, but are not limited
+to, statements about future financial and operating results, our plans, objectives, expectations and intentions with respect to future
+operations, products and services; and other statements identified by words such as &#8220;will likely result,&#8221; &#8220;are expected
+to,&#8221; &#8220;will continue,&#8221; &#8220;is anticipated,&#8221; &#8220;estimated,&#8221; &#8220;believe,&#8221; &#8220;intend,&#8221;
+&#8220;plan,&#8221; &#8220;projection,&#8221; &#8220;outlook&#8221; or words of similar meaning. These forward-looking statements include,
+but are not limited to, statements regarding SBC&#8217;s industry and market sizes, future opportunities for SBC and SBC&#8217;s estimated
+future results. Such forward-looking statements are based upon the current beliefs and expectations of our management and are inherently
+subject to significant business, economic and competitive uncertainties and contingencies, many of which are difficult to predict and
+generally beyond our control. Actual results and the timing of events may differ materially from the results anticipated in these forward-looking
+statements.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">In addition to factors previously disclosed in prior reports filed
+with the SEC, including the Definitive Proxy Statement filed with the SEC on August 12, 2024, the following factors, among others, could
+cause actual results and the timing of events to differ materially from the anticipated results or other expectations expressed in the
+forward-looking statements: a delay or failure to realize the expected benefits from the Business Combination; risks relating to the uncertainty
+of the projected financial information with respect to SBC; risks related to SBC&#8217;s limited operating history, the&#160;roll-out&#160;of
+SBC&#8217;s business and the timing of expected business milestones; SBC&#8217;s ability to implement its business plan and scale its
+business, which includes the extent of market reception to cosmetic treatment centers, navigating a new and evolving regulatory environment
+for cosmetic treatment centers, timely fulfillment of product orders, the ability to own, operate and manage safe, high-quality and cost-effective
+cosmetic treatment centers on an ongoing basis, the performance of our cosmetic treatment centers relative to customer expectations and
+customers&#8217; interest in and demand for cosmetic treatment solutions, and building a well-recognized and respected brand; SBC&#8217;s
+potential profit margin from sales associated with cosmetic treatment centers; SBC&#8217;s ability to formulate, implement and modify
+as necessary effective sales, marketing, and strategic initiatives to drive revenue growth; SBC&#8217;s ability to expand internationally;
+the viability of SBC&#8217;s intellectual property and intellectual property created in the future; acceptance by the marketplace of the
+products that SBC markets; government regulations and SBC&#8217;s ability to obtain applicable regulatory approvals and comply with government
+regulations, including under the rules and regulations of the U.S. Department of Transportation and Federal Aviation Administration, and
+the risk that SBC may not be able to develop and maintain effective internal controls.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 7; Value: 1 -->
+    <div style="border-bottom: Black 1.5pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->6<!-- Field: /Sequence --></span></p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Actual results, performance or achievements may differ materially,
+and potentially adversely, from any projections and forward-looking statements and the assumptions on which those forward-looking statements
+are based. There can be no assurance that the data contained herein is reflective of future performance to any degree. You are cautioned
+not to place undue reliance on forward-looking statements as a predictor of future performance as projected financial information and
+other information are based on estimates and assumptions that are inherently subject to various significant risks, uncertainties and other
+factors, many of which are beyond our control. All information set forth herein speaks only as of the date hereof in the case of information
+about SBC or the date of such information in the case of information from persons other than SBC, and SBC disclaims any intention or obligation
+to update any forward looking statements as a result of developments occurring after the date of this Current Report on Form&#160;8-K.&#160;Forecasts
+and estimates regarding SBC&#8217;s industry and end markets are based on sources SBC believes to be reliable, however there can be no
+assurance these forecasts and estimates will prove accurate in whole or in part. Annualized, pro forma, projected and estimated numbers
+are used for illustrative purposes only, are not forecasts and may not reflect actual results.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Business&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The business of SBC is described in the Definitive Proxy Statement
+filed with the SEC on August 12, 2024 in the section titled &#8220;<i>Information About SBC</i>&#8221; and that information is incorporated
+herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Risk Factors&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The risks associated with SBC are described in the Definitive Proxy
+Statement filed with the SEC on August 12, 2024 in the section titled &#8220;<i>Risk Factors</i>,&#8221; which is incorporated herein
+by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Financial Information&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The disclosure contained in the Definitive Proxy Statement filed with
+the SEC on August 12, 2024 in the sections titled &#8220;<i>Selected Historical Financial Information of SBC</i>&#8221; and &#8220;<i>Management&#8217;s
+Discussion and Analysis of Financial Condition and Results of Operations of SBC</i>&#8221; are incorporated by reference herein.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The audited financial statements of SBC for the years ended December
+31, 2023 and 2022, together with the notes thereto, are included in the Definitive Proxy Statement filed with the SEC on August 12, 2024
+beginning on page F-52 and are incorporated herein by reference. The unaudited financial statements of SBC for the six months ended June
+30, 2024, together with the notes thereto, are included as Exhibit 99.1 to this Current Report on Form 8-K and are incorporated herein
+by reference. The disclosure contained in Exhibit 99.2 hereto entitled &#8220;<i>Management&#8217;s Discussion and Analysis of Financial
+Condition and Results of Operations</i>&#8221; of SBC related to the six months ended June 30, 2024 and 2023, is incorporated herein by
+reference. In addition, the Unaudited Pro Forma Condensed Combined Financial Statements as of June 30, 2024 and for the year ended December
+31, 2023 and the six months ended June 30, 2024, are included as Exhibit 99.3 to this Current Report on Form&#160;8-K&#160;and are incorporated
+herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Properties&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The facilities of SBC are described in the Definitive Proxy Statement
+filed with the SEC on August 12, 2024 in the section titled &#8220;<i>Information About SBC - Facilities</i>,&#8221; which is incorporated
+herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Management&#8217;s Discussion and Analysis of Financial Condition
+and Results of Operations&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The disclosure contained under the heading &#8220;<i>Management&#8217;s
+Discussion and Analysis of Financial Condition and Results of Operations of SBC</i>&#8221; in the Definitive Proxy Statement filed with
+the SEC on August 12, 2024 is incorporated herein by reference. The disclosure contained in Exhibit 99.2 hereto entitled &#8220;<i>Management&#8217;s
+Discussion and Analysis of Financial Condition and Results of Operations</i>&#8221; of SBC related to the six months ended June 30, 2024
+and 2023, is incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b><i></i></b></p>
+
+<!-- Field: Page; Sequence: 8; Value: 1 -->
+    <div style="border-bottom: Black 1.5pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->7<!-- Field: /Sequence --></span></p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Security Ownership of Certain Beneficial Owners and Management&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The following table sets forth information regarding the beneficial
+ownership of shares of SBC&#8217;s common stock upon the completion of the Business Combination by:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr>
+    <td style="text-align: justify; width: 0.25in">&#160;</td>
+    <td style="text-align: justify; vertical-align: top; width: 0.25in">&#9679;</td>
+    <td style="text-align: justify; vertical-align: top"><span style="font-size: 10pt">each person known by SBC to be the beneficial owner of more than 5% of any class of SBC&#8217;s common stock;</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr>
+    <td style="text-align: justify; width: 0.25in">&#160;</td>
+    <td style="text-align: justify; vertical-align: top; width: 0.25in"><span style="font-size: 10pt">&#9679;</span></td>
+    <td style="text-align: justify; vertical-align: top"><span style="font-size: 10pt">each of SBC&#8217;s officers and directors;</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr>
+    <td style="text-align: justify; width: 0.25in">&#160;</td>
+    <td style="text-align: justify; vertical-align: top; width: 0.25in">&#9679;</td>
+    <td style="text-align: justify; vertical-align: top"><span style="font-size: 10pt">all executive officers and directors of SBC.</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Beneficial ownership is determined according to the rules of the SEC,
+which generally provide that a person has beneficial ownership of a security if he, she or it possesses sole or shared voting or investment
+power over that security, including options and warrants that are currently exercisable or exercisable within 60 days.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">In the table below, percentage ownership is based on 100,743,253 shares
+of common stock outstanding as of September 17, 2024, including 94,462,433 shares issued as Merger Consideration, and reflects the valid
+redemption of 135,471 shares of Class&#160;A common stock by public stockholders of Pono. The table below includes the common stock underlying
+the Private Placement Warrants held or to be held by Sponsor because these securities exercisable within sixty (60)&#160;days. This table
+also assumes that there are no other issuances of equity securities in connection with the Closing, including equity awards that may be
+issued under the Equity Incentive Plan following the Business Combination.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Unless otherwise indicated, SBC believes that all persons named in
+the table have sole voting and investment power with respect to all shares of Common Stock beneficially owned by them. Unless otherwise
+noted, the business address of each of the following entities or individuals is c/o of the Company at 6-5-1, Nishi Shinjuku, Shinjuku-ku,
+Tokyo 163-1303, Japan.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; border-collapse: collapse; width: 100%">
+  <tr style="vertical-align: bottom">
+    <td style="border-bottom: Black 1.5pt solid; font-weight: bold">Name and Address of Beneficial Owners&#8224;</td><td style="font-weight: bold; padding-bottom: 1.5pt">&#160;</td>
+    <td colspan="2" style="border-bottom: Black 1.5pt solid; font-weight: bold; text-align: center">Number of<br/> Shares<br/> Beneficially<br/> Owned</td><td style="padding-bottom: 1.5pt; font-weight: bold">&#160;</td><td style="font-weight: bold; padding-bottom: 1.5pt">&#160;</td>
+    <td colspan="2" style="border-bottom: Black 1.5pt solid; font-weight: bold; text-align: center"><b>%&#160;of<br/> Class<sup>(1)</sup></b></td><td style="padding-bottom: 1.5pt; font-weight: bold">&#160;</td></tr>
+  <tr style="vertical-align: bottom">
+    <td style="font-weight: bold; font-style: italic">Directors and Executive Officers</td><td>&#160;</td>
+    <td colspan="2" style="text-align: right">&#160;</td><td>&#160;</td><td>&#160;</td>
+    <td colspan="2" style="text-align: right">&#160;</td><td>&#160;</td></tr>
+  <tr style="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <td style="width: 76%; text-align: left">Yoshiyuki Aikawa</td><td style="width: 1%">&#160;</td>
+    <td style="width: 1%; text-align: left">&#160;</td><td style="width: 9%; text-align: right">94,462,433</td><td style="width: 1%; text-align: left">&#160;</td><td style="width: 1%">&#160;</td>
+    <td style="width: 1%; text-align: left">&#160;</td><td style="width: 9%; text-align: right">93.7</td><td style="width: 1%; text-align: left">%</td></tr>
+  <tr style="vertical-align: bottom; background-color: White">
+    <td style="text-align: left">Yuya Yoshida</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#8212;</td><td style="text-align: left">&#160;</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#8212;</td><td style="text-align: left">&#160;</td></tr>
+  <tr style="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <td style="text-align: left">Ryoji Murata</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#8212;</td><td style="text-align: left">&#160;</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#8212;</td><td style="text-align: left">&#160;</td></tr>
+  <tr style="vertical-align: bottom; background-color: White">
+    <td style="text-align: left">Akira Komatsu</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#8212;</td><td style="text-align: left">&#160;</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#8212;</td><td style="text-align: left">&#160;</td></tr>
+  <tr style="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <td style="text-align: left">Ken Edahiro</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#8212;</td><td style="text-align: left">&#160;</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#8212;</td><td style="text-align: left">&#160;</td></tr>
+  <tr style="vertical-align: bottom; background-color: White">
+    <td style="text-align: left">Mike Sayama</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#8212;</td><td style="text-align: left">&#160;</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#8212;</td><td style="text-align: left">&#160;</td></tr>
+  <tr style="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <td style="text-align: left">Fumitoshi Fujiwara</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#8212;</td><td style="text-align: left">&#160;</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#8212;</td><td style="text-align: left">&#160;</td></tr>
+  <tr style="vertical-align: bottom; background-color: White">
+    <td style="font-style: italic; text-align: left">All named executive officers and directors as a group 7 persons</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">94,462,433</td><td style="text-align: left">&#160;</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">93.7</td><td style="text-align: left">%</td></tr>
+  <tr style="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <td style="font-weight: bold; font-style: italic; text-align: left">Greater than 5% Holders:</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#160;</td><td style="text-align: left">&#160;</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">&#160;</td><td style="text-align: left">&#160;</td></tr>
+  <tr style="vertical-align: bottom; background-color: White">
+    <td style="text-align: left">Mehana Capital LLC (the Sponsor)<sup>(2)</sup></td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">5,343,750</td><td style="text-align: left">&#160;</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">5.3</td><td style="text-align: left">%</td></tr>
+  <tr style="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <td>Dustin Shindo<sup>(2)</sup></td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">5,343,750</td><td style="text-align: left">&#160;</td><td>&#160;</td>
+    <td style="text-align: left">&#160;</td><td style="text-align: right">5.3</td><td style="text-align: left">%</td></tr>
+  </table>
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td style="width: 0.25in"><span style="font-size: 10pt">*</span></td>
+    <td><span style="font-size: 10pt">Less than 1.0%</span></td></tr>
+  </table>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td style="width: 24px; font-size: 10pt">(1)</td>
+    <td style="font-size: 10pt; text-align: justify">Percentages are based on 100,743,253 shares of SBC&#8217;s common stock outstanding following the consummation of the Business Combination.</td></tr>
+  </table>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: top">
+    <td style="width: 0.25in"><span style="font-size: 10pt">(2)</span></td>
+    <td style="text-align: justify"><span style="font-size: 10pt">Mehana Capital LLC, the Sponsor, is the record holder of the securities reported herein. Dustin Shindo, our Chairman, is the managing member of the Sponsor. By virtue of this relationship, Mr.&#160;Shindo may be deemed to share beneficial ownership of the securities held of record by the Sponsor. Mr.&#160;Shindo disclaims any such beneficial ownership except to the extent of his pecuniary interest. These shares include (i) 634,375 shares of common stock issuable upon exercise of warrants held by Mehana Capital LLC, and (ii) 4,709,375 shares held by Mehana Capital LLC.</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b><i></i></b></p>
+
+<!-- Field: Page; Sequence: 9; Value: 1 -->
+    <div style="border-bottom: Black 1.5pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->8<!-- Field: /Sequence --></span></p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Directors and Executive Officers&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">SBC&#8217;s directors and executive officers after the Closing are
+described in the Definitive Proxy Statement filed with the SEC on August 12, 2024 in the section titled &#8220;<i>Management After the
+Business Combination</i>,&#8221; which is incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Yoshiyuki Aikawa, the Director, Chairman and Chief Executive Officer
+of SBC Medical Group Holdings Incorporated, stepped down from his position as Chief Executive Officer and Representative of SBC Medical
+Group Co., Ltd. on September 1, 2024, and remains as a director of SBC Medical Group Co., Ltd., which is a wholly owned subsidiary of
+SBC Medical Group Holdings Incorporated&#8217;s wholly owned subsidiary, SBC Medical Group, Inc.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Executive Compensation&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The compensation of the named executive officers of Pono before the
+Business Combination is set forth in the Definitive Proxy Statement filed with the SEC on August 12, 2024 in the section titled &#8220;<i>Pono&#8217;s
+Management</i>,&#8221; which is incorporated herein by reference. The compensation of the named executive officers of SBC before the Business
+Combination is set forth in the Definitive Proxy Statement filed with the SEC on August 12, 2024 in the section titled &#8220;<i>Executive
+and Director Compensation of SBC</i>&#8221;, which is incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The information set forth in this Current Report on Form&#160;8-K&#160;under
+Item 5.02 is incorporated in this Item 2.01 by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">At the Special Meeting, Pono&#8217;s shareholders approved the SBC
+Equity Incentive Plan (the &#8220;<b>Plan</b>&#8221;). A description of the material terms of the Plan is set forth in the section of
+the Definitive Proxy Statement filed with the SEC on August 12, 2024 titled &#8220;<i>The Incentive Plan Proposal (Proposal 6)</i>,&#8221;
+which is incorporated herein by reference. This summary is qualified in its entirety by reference to the complete text of the Plan, a
+copy of which is attached as Exhibit 10.1 to this Current Report on Form&#160;8-K&#160;and is incorporated by reference herein.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Certain Relationships and Related Transactions, and Director
+Independence&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The certain relationships and related party transactions of Pono and
+SBC are described in the Definitive Proxy Statement filed with the SEC on August 12, 2024 in the section titled &#8220;<i>Certain Relationships
+and Related Person Transactions</i>&#8221; and are incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Reference is made to the disclosure regarding director independence
+in the section of the Definitive Proxy Statement filed with the SEC on August 12, 2024 titled &#8220;<i>Management After the Business
+Combination - Director Independence</i>,&#8221; which is incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The information set forth under Item 5.02 &#8220;<i>Departure of Directors
+or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers</i>&#8221;
+of this Current Report on Form&#160;8-K&#160;is incorporated into this Item 2.01 by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The information set forth in the section titled &#8220;<i>Registration
+Rights Agreements</i>&#8221; in Item 1.01 of this Current Report on Form&#160;8-K&#160;is incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Legal Proceedings&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Reference is made to the disclosure regarding legal proceedings in
+the sections of the Definitive Proxy Statement filed with the SEC on August 12, 2024 titled &#8220;<i>Information About Pono - Legal Proceedings</i>,&#8221;
+which are incorporated herein by reference. To the knowledge of SBC&#8217;s management, there are no legal proceedings pending against
+SBC.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Market Price of and Dividends on the Registrant&#8217;s Common
+Equity and Related Stockholder Matters&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">SBC&#8217;s common stock began trading on the Nasdaq Global Market
+under the symbol &#8220;SBC&#8221; and its warrants began trading on the Nasdaq Capital Market under the symbol &#8220;SBCWW&#8221; on
+September 18, 2024. Pono has not paid any cash dividends on its common stock to date. The payment of cash dividends by SBC in the future
+will be dependent upon SBC&#8217;s revenues and earnings, if any, capital requirements and general financial condition subsequent to completion
+of the Business Combination. The payment of any dividends subsequent to the Business Combination will be within the discretion of the
+board of directors of SBC.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b><i></i></b></p>
+
+<!-- Field: Page; Sequence: 10; Value: 1 -->
+    <div style="border-bottom: Black 1.5pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->9<!-- Field: /Sequence --></span></p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b><i>&#160;</i></b></p><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Information regarding Pono&#8217;s common stock, rights and units and
+related stockholder matters are described in the Definitive Proxy Statement filed with the SEC on August 12, 2024 in the section titled
+&#8220;<i>Description of Securities of New Pono</i>&#8221; and such information is incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Recent Sales of Unregistered Securities&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">None.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Description of Registrant&#8217;s Securities to be Registered&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The description of SBC&#8217;s securities is contained in the Definitive
+Proxy Statement filed with the SEC on August 12, 2024 in the sections titled &#8220;<i>Description of Securities of New Pono</i>.&#8221;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Indemnification of Directors and Officers&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The description of the indemnification arrangements with SBC&#8217;s
+directors and officers is contained in the Definitive Proxy Statement filed with the SEC on August 12, 2024 in the section titled &#8220;<i>Pono&#8217;s
+Management - Limitation on Liability and Indemnification of Officers and Directors&#8221;</i>&#160;and the disclosure under Item 1.01
+&#8220;<i>Entry into Material Definitive Agreement-Indemnification Agreements</i>&#8221; of this Current Report on Form&#160;8-K,&#160;which
+is incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Financial Statements and Supplementary Data&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The information set forth under Item 9.01 of this Current Report on
+Form&#160;8-K&#160;is incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Financial Statements and Exhibits&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The information set forth under Item 9.01 of this Current Report on
+Form&#160;8-K&#160;is incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-indent: 0in; text-align: justify"><span style="font-size: 10pt"><b>Item&#160;3.03.
+Material Modification to Rights of Security Holders.</b></span></p>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The shareholders of Pono approved the Third Amended and Restated Certificate
+of Incorporation at the Special Meeting. In connection with the Closing, SBC adopted the Fourth Amended and Restated Certificate of Incorporation
+and the Amended and Restated Bylaws effective as of the Closing Date. Reference is made to the disclosure described in the Definitive
+Proxy Statement filed with the SEC on August 12, 2024 in the section titled &#8220;<i>The Charter Amendment Proposals (Proposals 2 Through
+4)</i>,&#8221; which is incorporated herein by reference. Additionally, the disclosure described in the Definitive Proxy Statement filed
+with the SEC on August 12, 2024 in the section titled &#8220;COMPARISON OF STOCKHOLDER RIGHTS&#8221; is incorporated by reference herein.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The full text of the Amended and Restated Certificate of Incorporation
+and the Amended and Restated Bylaws, which are included as Exhibits 3.1 and 3.2 hereto, respectively, to this Current Report on Form&#160;8-K,&#160;are
+incorporated herein by reference.</p>
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-indent: 0in; text-align: justify"><span style="font-size: 10pt"><b>Item&#160;4.01.
+Changes in the Registrant&#8217;s Certifying Accountant.</b></span></p>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">On March 20, 2023, the Board approved the
+engagement of MaloneBailey, LLP (<b><i>&#8220;MaloneBailey&#8221;</i></b>) as the Company&#8217;s independent registered public
+accounting firm to audit the Company&#8217;s consolidated financial statements for the years ending December&#160;31, 2022 and 2021.
+MaloneBailey served as the independent registered public accounting firm of SBC prior to the Business Combination. Accordingly,
+Marcum&#160;LLP (<b><i>&#8220;Marcum&#8221;</i></b>), Pono&#8217;s independent registered public accounting firm prior to the
+Business Combination, was informed that it would be dismissed on September 19, 2024 and replaced by MaloneBailey as the
+Company&#8217;s independent registered public accounting firm.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The audit report of Marcum on Pono, the Company&#8217;s legal predecessor,
+financial statements as of December&#160;31, 2023 and 2022, and for the year ended December 31, 2023 and&#160;for the period from March
+11, 2022 (inception) to December 31, 2022, did not contain an adverse opinion or a disclaimer of opinion, and was not qualified or modified
+as to uncertainties, audit scope, or accounting principles except for an explanatory paragraph in such report regarding substantial doubt
+about Pono&#8217;s ability to continue as a going concern.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">During the period from March 11, 2022 (date of inception) through December
+31, 2023, and the subsequent interim periods through June 30, 2024, there were no disagreements with Marcum on any matter of accounting
+principles or practices, financial statement disclosure, or auditing scope or procedure, which disagreements, if not resolved to the satisfaction
+of Marcum, would have caused it to make a reference in connection with their opinion to the subject matter of the disagreement or reportable
+events as defined in Item&#160;304(a)(1)(v)&#160;of&#160;Regulation&#160;S-K&#160;(<b><i>&#8220;Regulation&#160;S-K&#8221;</i></b>) under
+the Securities Exchange Act of 1934, as amended (the&#160;<b><i>&#8220;Exchange Act&#8221;</i></b>), other than a previously disclosed
+material weakness in Pono&#8217;s internal control over financial reporting identified by Pono, which resulted in the restatement of Pono&#8217;s
+financial statements for certain interim periods.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></p>
+
+<!-- Field: Page; Sequence: 11; Value: 1 -->
+    <div style="border-bottom: Black 1.5pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->10<!-- Field: /Sequence --></span></p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Company has provided Marcum with a copy of the foregoing disclosures
+in this Item&#160;4.01 in response to Item&#160;304(a) of Regulation&#160;S-K&#160;under the Exchange Act, and has requested that Marcum
+furnish the Company with a letter addressed to the Commission stating whether it agrees with the statements made by the registrant in
+this Item&#160;4.01 in response to Item&#160;304(a) of Regulation&#160;S-K&#160;under the Exchange Act and, if not, stating the respects
+in which it does not agree. A letter from Marcum is attached hereto as Exhibit&#160;16.1.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-indent: 0in; text-align: justify"></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-indent: 0in; text-align: justify"><span style="font-size: 10pt"><b>Item&#160;5.01.
+Changes in Control of Registrant.</b></span></p>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">Reference is made to the disclosure in the Definitive Proxy Statement
+filed with the SEC on August 12, 2024 in the section titled &#8220;<i>The Business Combination Proposal (Proposal 1)</i>&#8221;, which
+is incorporated herein by reference. Further reference is made to the information contained in Item 2.01 to this Current Report on Form&#160;8-K,&#160;which
+is incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">As of the Closing there were 100,743,253
+shares of common stock: public stockholders own approximately 1.5% (1,513,945 shares) of the outstanding shares of SBC common stock;
+the Sponsor and its affiliates own approximately 4.8% (4,709,375 shares) of the outstanding shares of SBC common stock and
+SBC&#8217;s former security holders collectively own approximately 93.7% (94,462,433 shares) of the outstanding shares of Common
+Stock in each case assuming no Private Placement Warrants or Public Warrants are exercised.</p>
+
+<p style="font: 18pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-indent: 0in; text-align: justify"><span style="font-size: 10pt"><b>Item&#160;5.02.
+Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain
+Officers.</b></span></p>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><b><i>Election of Directors and Appointment of Officers&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The following persons are serving as executive officers and directors
+following the Closing. For information concerning the executive officers and directors, see the disclosure in the Definitive Proxy Statement
+filed with the SEC on August 12, 2024 in the sections titled &#8220;<i>Pono&#8217;s Management</i>,&#8221; and &#8220;<i>Management After
+the Business Combination,</i>&#8221; and &#8220;<i>Executive and Director Compensation of SBC</i>,&#8221; which are incorporated herein
+by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; border-collapse: collapse; width: 100%">
+  <tr style="vertical-align: bottom">
+    <td style="border-bottom: Black 1.5pt solid; font-weight: bold">Name</td><td style="font-weight: bold; padding-bottom: 1.5pt">&#160;</td>
+    <td style="border-bottom: Black 1.5pt solid; font-weight: bold; text-align: center">Age</td><td style="font-weight: bold; padding-bottom: 1.5pt">&#160;</td>
+    <td style="border-bottom: Black 1.5pt solid; font-weight: bold; text-align: center">Position(s)</td></tr>
+  <tr style="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <td style="width: 30%; text-align: left">Yoshiyuki Aikawa</td><td style="width: 1%">&#160;</td>
+    <td style="width: 12%; text-align: center">54</td><td style="width: 1%">&#160;</td>
+    <td style="width: 56%; text-align: left">Director, Chairman and Chief Executive Officer</td></tr>
+  <tr style="vertical-align: bottom; background-color: White">
+    <td style="text-align: left">Yuya Yoshida</td><td>&#160;</td>
+    <td style="text-align: center">46</td><td>&#160;</td>
+    <td style="text-align: left">Director and Chief Operating Officer</td></tr>
+  <tr style="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <td style="text-align: left">Ryoji Murata</td><td>&#160;</td>
+    <td style="text-align: center">53</td><td>&#160;</td>
+    <td style="text-align: left">Chief Financial Officer</td></tr>
+  <tr style="vertical-align: bottom; background-color: White">
+    <td style="text-align: left">Akira Komatsu</td><td>&#160;</td>
+    <td style="text-align: center">49</td><td>&#160;</td>
+    <td style="text-align: left">Chief Strategy Officer and Secretary</td></tr>
+  <tr style="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <td style="text-align: left">Ken Edahiro</td><td>&#160;</td>
+    <td style="text-align: center">42</td><td>&#160;</td>
+    <td style="text-align: left">Independent Director</td></tr>
+  <tr style="vertical-align: bottom; background-color: White">
+    <td style="text-align: left">Mike Sayama</td><td>&#160;</td>
+    <td style="text-align: center">70</td><td>&#160;</td>
+    <td style="text-align: left">Independent Director</td></tr>
+  <tr style="vertical-align: bottom; background-color: rgb(204,238,255)">
+    <td style="text-align: left">Fumitoshi Fujiwara</td><td>&#160;</td>
+    <td style="text-align: center">58</td><td>&#160;</td>
+    <td style="text-align: left">Independent Director</td></tr>
+  </table>
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-indent: 24.5pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-indent: 24.5pt"></p>
+
+<!-- Field: Page; Sequence: 12; Value: 1 -->
+    <div style="border-bottom: Black 1.5pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->11<!-- Field: /Sequence --></span></p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-indent: 24.5pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0in">Each director will hold office until his or her
+term expires at the next annual meeting of stockholders for such director&#8217;s class or until his or her death, resignation, removal
+or the earlier termination of his or her term of office.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 24.5pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0in">Effective upon Closing, each of Darryl Nakamoto
+and Allison Van Orman resigned as officers of Pono. Effective upon Closing, each of Dustin Shindo, Kotaro Chiba, and Trisha Nomura resigned
+as directors of Pono.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 24.5pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0in">Yoshiyuki Aikawa, the Director, Chairman and Chief
+Executive Officer of SBC Medical Group Holdings Incorporated, stepped down from his position as Chief Executive Officer and Representative
+of SBC Medical Group Co., Ltd. on September 1, 2024, and remains as a director of SBC Medical Group Co., Ltd., which is a wholly owned
+subsidiary of SBC Medical Group Holdings Incorporated&#8217;s wholly owned subsidiary, SBC Medical Group, Inc.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Equity Incentive Plan&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">At the Special Meeting, Pono shareholders considered and approved the
+SBC Medical Group Holdings Incorporated Equity Incentive Plan (the &#8220;<b>Plan</b>&#8221;) and reserved 15,000,000 shares of common
+stock for issuance thereunder. The Plan was approved by the Pono board of directors on August 9, 2024. The Plan became effective immediately
+upon the Closing of the Business Combination.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">A more complete summary of the terms of the Plan is set forth in the
+Definitive Proxy Statement filed with the SEC on August 12, 2024 in the section titled &#8220;<i>The Incentive Plan Proposal (Proposal
+6).</i>&#8221; That summary and the foregoing description are qualified in their entirety by reference to the text of the Plan, which
+is filed as Exhibit 10.1 hereto and incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b><i>Executive Employment Agreements&#160;</i></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">On September 17, 2024, the Company entered into employment agreements
+(the &#8220;<b>Employment Agreements</b>&#8221;) with executive officers: Dr. Yoshiyuki Aikawa (Chief Executive Officer), Yuya Yoshida
+(Chief Operating Officer), Ryoji Murata (Chief Financial Officer) and Akira Komatsu (Chief Strategy Officer and Secretary).</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Employment Agreements all provide for&#160;at-will&#160;employment
+that may be terminated by the Company for death or disability and with or without cause, by the executive with or without good reason,
+or mutually terminated by the parties. The Employment Agreements for Dr. Aikawa and Messrs. Yoshida, Murata and Komatsu provide for a
+severance payment equal to the remaining base salary for the remaining period of the respective term of employment (each term is one (1)&#160;year)
+upon termination by the Company without cause or termination by such executive for good reason. The executive agreements provide for an
+annual base salary of $12,000,000, $304,404, $136,990 and $75,041 for Dr. Aikawa and Messrs. Yoshida, Murata and Komatsu, respectively,
+as well as possible annual performance bonuses and equity grants under the equity incentive plan if and when determined by the Company&#8217;s
+Compensation Committee.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">This summary is qualified in its entirety by reference to the text
+of the employment agreements, which are included as Exhibits 10.8, 10.9, 10.10 and 10.11 to this Current Report on Form&#160;8-K&#160;and
+is incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-indent: 0in; text-align: justify"><span style="font-size: 10pt"><b>Item&#160;5.03.
+Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year.</b></span></p>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The information set forth in Item 3.03 of this Current Report on Form&#160;8-K&#160;is
+incorporated by reference into this Item 5.03.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"></p>
+
+<!-- Field: Page; Sequence: 13; Value: 1 -->
+    <div style="border-bottom: Black 1.5pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->12<!-- Field: /Sequence --></span></p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-indent: 0in; text-align: justify"><span style="font-size: 10pt"><b>Item&#160;5.05.
+Amendments to the Registrant&#8217;s Code of Ethics, or Waiver of a Provision of the Code of Ethics.</b></span></p>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">On September 17, 2024, the Company adopted a new Code of Business Conduct
+and Ethics that applies to all of its employees, officers and directors, including its Chief Executive Officer, Chief Financial Officer
+and other executive and senior financial officers. The full text of SBC&#8217;s Code of Business Conduct and Ethics is available in Exhibit
+14.1 filed hereto. In addition, a copy of the Code of Ethics will be provided without charge upon request to us in writing at 6-5-1, Nishi
+Shinjuku, Shinjuku-ku, Tokyo 163-1303, Japan.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The adoption of the Code of Business Conduct and Ethics did not relate
+to or result in any waiver, explicit or implicit, of any provision of the previous Code of Conduct. Any waivers under the Code of Business
+Conduct and Ethics will be disclosed on a Current Report on Form&#160;8-K&#160;or as otherwise permitted by the rules of the SEC and Nasdaq
+(or other stock exchange on which SBC&#8217;s securities are then listed).</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-indent: 0in; text-align: justify"><span style="font-size: 10pt"><b>Item&#160;5.06.
+Change in Shell Company Status.</b></span></p>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">As a result of the Business Combination, Pono ceased being a shell
+company. Reference is made to the disclosure in the Definitive Proxy Statement filed with the SEC on August 12, 2024 in the sections titled
+&#8220;<i>The Business Combination Proposal (Proposal 1)</i>&#8221;, which is incorporated herein by reference. The information contained
+in Item 2.01 of this Current Report on Form&#160;8-K&#160;is incorporated by reference into this Item 5.06.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b>&#160;</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-indent: 0in; text-align: justify"><span style="font-size: 10pt"><b>Item&#160;7.01
+Regulation FD Disclosure.</b></span></p>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">On September 17, 2024, the Company issued a press release announcing
+the consummation of the Business Combination. A copy of the press release is filed as Exhibit 99.4 to this Current Report on Form 8-K.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">On September 17, 2024, the Company made available on its corporate
+website an investor presentation in respect of the Business Combination. A copy of such investor presentation is filed as Exhibit 99.5
+to this Current Report on Form 8-K.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The information in this Item 7.01, including Exhibit 99.4 and Exhibit
+99.5 attached hereto, is being furnished and shall not be deemed &#8220;filed&#8221; for the purposes of Section 18 of the Exchange Act&#8221;,
+nor shall it be deemed incorporated by reference in any of the Company&#8217;s filings under the Securities Act, or the Exchange Act,
+whether made before or after the date hereof, except as shall be expressly set forth by specific reference to this report in such filing.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><b>Item&#160;8.01&#160;Other
+Events.</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">The Company&#8217;s common stock is listed for trading on the Nasdaq
+Global Market under the symbol &#8220;SBC&#8221; and the public warrants are listed for trading on the Nasdaq Capital Market under the
+symbol &#8220;SBCWW.&#8221;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-indent: 0in; text-align: justify"><span style="font-size: 10pt"><b>Item&#160;9.01.
+Financial Statement and Exhibits.</b></span></p>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">(a) Financial statements of businesses or funds acquired.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><span style="background-color: white">The audited financial statements
+of SBC for the years ended December&#160;31, 2023 and 2022, together with the notes thereto, are included in the Definitive Proxy Statement
+filed with the SEC on August 12, 2023 beginning on page&#160;F-52,&#160;are incorporated herein by reference. The unaudited financial
+statements of SBC for the six months ended June 30, 2024, together with the notes thereto, are included as Exhibit 99.1 to this Current
+Report on Form 8-K and are incorporated herein by reference. </span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">(b) Pro forma financial information.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify"><span style="background-color: white">Information responsive to Item
+9.01(b) of Form&#160;8-K&#160;is set forth in the unaudited pro forma financial statements as of June 30, 2024 and for the year ended
+December 31, 2023 and the six months ended June 30, 2024, are filed as Exhibit 99.3 to this Current Report on Form&#160;8-K&#160;and incorporated
+herein by reference.</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 14; Value: 1 -->
+    <div style="border-bottom: Black 1.5pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->13<!-- Field: /Sequence --></span></p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">(d) Exhibits.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;&#160;&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr>
+    <td style="border-bottom: black 1.5pt solid; vertical-align: top; width: 9%"><span style="font-size: 10pt"><b>Exhibit No.</b></span></td>
+    <td style="vertical-align: bottom; width: 1%; text-align: justify">&#160;</td>
+    <td style="border-bottom: black 1.5pt solid; vertical-align: bottom; width: 90%; text-align: justify"><span style="font-size: 10pt"><b>Description</b></span></td></tr>
+  <tr style="background-color: rgb(204,238,255)">
+    <td style="vertical-align: top; text-align: justify"><span style="font-size: 10pt">2.1</span></td>
+    <td style="vertical-align: bottom; text-align: justify">&#160;</td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-size: 10pt"><a href="http://www.sec.gov/Archives/edgar/data/1930313/000149315223003426/ex2-1.htm">Agreement and Plan of Merger, dated January 31, 2023, by and among Pono Capital Two, Inc., Pono Two Merger Sub, Inc., SBC Medical Group Holdings Incorporated, Mehana Capital LLC in its capacity as the representative of the stockholders of Pono Capital Two, Inc., and Yoshiyuki Aikawa in his personal capacity and his capacity as the representative of the stockholders of SBC Medical Group Holdings Incorporated (incorporated by reference to Exhibit 2.1 to the Current Report on Form 8-K filed by Pono Capital Two, Inc. with the SEC on February 2, 2023)</a>.</span></td></tr>
+  <tr style="background-color: White">
+    <td style="vertical-align: top; text-align: justify"><span style="font-size: 10pt">2.2</span></td>
+    <td style="vertical-align: bottom; text-align: justify">&#160;</td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-size: 10pt"><a href="http://www.sec.gov/Archives/edgar/data/1930313/000149315223014790/ex2-2.htm">First Amendment to the Agreement and Plan of Merger, dated April 26, 2023, by and among Pono Capital Two, Inc., Pono Two Merger Sub, Inc., SBC Medical Group Holdings Incorporated, Mehana Capital LLC in its capacity as the representative of the stockholders of Pono Capital Two, Inc., and Yoshiyuki Aikawa in his personal capacity and his capacity as the representative of the stockholders of SBC Medical Group Holdings Incorporated (incorporated by reference to Exhibit 2.2 to the Current Report on Form 8-K filed by Pono Capital Two, Inc. with the SEC on May 1, 2023)</a>.</span></td></tr>
+  <tr style="background-color: rgb(204,238,255)">
+    <td style="vertical-align: top; text-align: justify"><span style="font-size: 10pt">2.3</span></td>
+    <td style="vertical-align: bottom; text-align: justify">&#160;</td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-size: 10pt"><a href="http://www.sec.gov/Archives/edgar/data/1930313/000149315223019965/ex2-2.htm">Second Amendment to the Agreement and Plan of Merger, dated May 30, 2023, by and among Pono Capital Two, Inc., Pono Two Merger Sub, Inc., SBC Medical Group Holdings Incorporated, Mehana Capital LLC in its capacity as the representative of the stockholders of Pono Capital, Two Inc., and Yoshiyuki Aikawa in his personal capacity and his capacity as the representative of the stockholders of SBC Medical Group Holdings Incorporated (incorporated by reference to Exhibit 2.2 to the Current Report on Form 8-K filed by Pono Capital Two, Inc. with the SEC on June 2, 2023)</a>.</span></td></tr>
+  <tr style="background-color: White">
+    <td style="vertical-align: top; text-align: justify"><span style="font-size: 10pt">2.4</span></td>
+    <td style="vertical-align: bottom; text-align: justify">&#160;</td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-size: 10pt"><a href="http://www.sec.gov/Archives/edgar/data/1930313/000149315223021671/ex2-2.htm">Third Amendment to the Agreement and Plan of Merger, dated June 15, 2023, by and among Pono Capital Two, Inc., Pono Two Merger Sub, Inc., SBC Medical Group Holdings Incorporated, Mehana Capital LLC in its capacity as the representative of the stockholders of Pono Capital Two Inc., and Yoshiyuki Aikawa in his personal capacity and his capacity as the representative of the stockholders of SBC Medical Group Holdings Incorporated (incorporated by reference to Exhibit 2.2 to the Current Report on Form 8-K filed by Pono Capital Two, Inc. with the SEC on June 16, 2023)</a>.</span></td></tr>
+  <tr style="background-color: rgb(204,238,255)">
+    <td style="vertical-align: top; text-align: justify"><span style="font-size: 10pt">2.5</span></td>
+    <td style="vertical-align: bottom; text-align: justify">&#160;</td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-size: 10pt"><a href="http://www.sec.gov/Archives/edgar/data/1930313/000149315223022132/ex2-1.htm">Amended and Restated Agreement and Plan of Merger, dated June 21, 2023, by and among Pono Capital Two, Inc., Pono Two Merger Sub, Inc., SBC Medical Group Holdings Incorporated, Mehana Capital LLC in its capacity as the representative of the stockholders of Pono Capital Two, Inc., and Yoshiyuki Aikawa in his personal capacity and his capacity as the representative of the stockholders of SBC Medical Group Holdings Incorporated (incorporated by reference to Exhibit 2.1 to the Current Report on Form 8-K filed by Pono Capital Two, Inc. with the SEC on June 22, 2023)</a>.</span></td></tr>
+  <tr style="background-color: White">
+    <td style="vertical-align: top; text-align: justify"><span style="font-size: 10pt">2.6</span></td>
+    <td style="vertical-align: bottom; text-align: justify">&#160;</td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-size: 10pt"><a href="http://www.sec.gov/Archives/edgar/data/1930313/000149315223032156/ex2-2.htm">First Amendment to the Amended and Restated Agreement and Plan of Merger, dated September 8, 2023, by and among Pono Capital Two, Inc., Pono Two Merger Sub, Inc., SBC Medical Group Medical Holdings Incorporated, Mehana Capital LLC in its capacity as the representative of the stockholders of Pono Capital Two, Inc., and Yoshiyuki Aikawa in his personal capacity and his capacity as the representative of the stockholders of SBC (incorporated by reference to Exhibit 2.2 to the Current Report on Form 8-K filed by Pono Capital Two, Inc. with the SEC on September 11, 2023)</a>.</span></td></tr>
+  <tr style="background-color: rgb(204,238,255)">
+    <td style="vertical-align: top; text-align: justify"><span style="font-size: 10pt">2.7</span></td>
+    <td style="vertical-align: bottom; text-align: justify">&#160;</td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-size: 10pt"><a href="http://www.sec.gov/Archives/edgar/data/1930313/000149315223038430/ex2-2.htm">Second Amendment to the Amended and Restated Agreement and Plan of Merger, dated October 26, 2023, by and among Pono Capital Two Inc., Pono Two Merger Sub, Inc., SBC Medical Group Holdings Incorporated, Mehana Capital LLC in its capacity as the representative of the stockholders of Pono Capital Two Inc., and Yoshiyuki Aikawa in his personal capacity and his capacity as the representative of the stockholders of SBC Medical Group Holdings Incorporated (incorporated by reference to Exhibit 2.2 to Form 8-K filed by Pono Capital Corp. with the SEC on October 26, 2023)</a>.</span></td></tr>
+  <tr style="background-color: White">
+    <td style="vertical-align: top; text-align: justify"><span style="font-size: 10pt">2.8</span></td>
+    <td style="vertical-align: bottom; text-align: justify">&#160;</td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-size: 10pt"><a href="http://www.sec.gov/Archives/edgar/data/1930313/000149315223046431/ex2-2.htm">Third Amendment to the Amended and Restated Agreement and Plan of Merger, dated December 28, 2023, by and among Pono Capital Two, Inc., Pono Two Merger Sub, Inc., SBC Medical Group Holdings Incorporated, Mehana Capital LLC in its capacity as the representative of the stockholders of Pono Capital Two, Inc., and Yoshiyuki Aikawa in his personal capacity and his capacity as the representative of the stockholders of SBC Medical Group Holdings Incorporated (incorporated by reference to Exhibit 2.2 to the Current Report on Form 8-K filed by Pono Capital Two, Inc. with the SEC on December 29, 2023)</a>.</span></td></tr>
+  <tr style="background-color: rgb(204,238,255)">
+    <td style="vertical-align: top; text-align: justify"><span style="font-size: 10pt">2.9</span></td>
+    <td style="vertical-align: bottom; text-align: justify">&#160;</td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-size: 10pt"><a href="http://www.sec.gov/Archives/edgar/data/1930313/000149315224015696/ex2-2.htm">Fourth Amendment to the Amended and Restated Agreement and Plan of Merger, dated April 22, 2024, by and among Pono Capital, Two Inc., Pono Two Merger Sub, Inc., SBC Medical Group Holdings Incorporated Mehana Capital LLC in its capacity as the representative of the stockholders of Pono Capital, Two Inc., and Yoshiyuki Aikawa in his personal capacity and his capacity as the representative of the stockholders of SBC Medical Group Holdings Incorporated (incorporated by reference to Exhibit 2.2 to the Current Report on Form 8-K filed by Pono Capital Two, Inc. with the SEC on April 23, 2024)</a>.</span></td></tr>
+  <tr style="background-color: White">
+    <td style="vertical-align: top; text-align: justify"><span style="font-size: 10pt">3.1*</span></td>
+    <td style="vertical-align: bottom; text-align: justify">&#160;</td>
+    <td style="vertical-align: bottom; text-align: justify"><a href="ea021502401ex3-1_sbcmed.htm">Fourth Amended and Restated Certificate of Incorporation of SBC Medical Group Holdings Incorporated</a>.</td></tr>
+  <tr style="background-color: rgb(204,238,255)">
+    <td style="vertical-align: top; text-align: justify"><span style="font-size: 10pt">3.2*</span></td>
+    <td style="vertical-align: bottom; text-align: justify">&#160;</td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-size: 10pt"><a href="ea021502401ex3-2_sbcmed.htm">Amended and Restated Bylaws of SBC Medical Group Holdings Incorporated.</a></span></td></tr>
+  <tr style="background-color: White">
+    <td style="vertical-align: top; text-align: justify"><span style="font-size: 10pt">4.1</span></td>
+    <td style="vertical-align: bottom; text-align: justify">&#160;</td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-size: 10pt"><a href="http://www.sec.gov/Archives/edgar/data/1930313/000149315222021781/ex4-1.htm">Warrant Agreement, dated August 4, 2022, by and between Pono Capital Two, Inc. and Continental Stock Transfer &amp; Trust Company, as warrant agent (incorporated by reference to Exhibit 4.1 to the Current Report on Form 8-K filed by Pono Capital Two, Inc. with the SEC on August 9, 2022)</a>.</span></td></tr>
+  <tr style="background-color: rgb(204,238,255)">
+    <td style="vertical-align: top; text-align: justify"><span style="font-size: 10pt">4.2</span></td>
+    <td style="vertical-align: bottom; text-align: justify">&#160;</td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-size: 10pt"><a href="http://www.sec.gov/Archives/edgar/data/1930313/000149315222020076/ex4-1.htm">Specimen Unit Certificate (incorporated by reference to Exhibit 4.1 to the Amendment No. 1 to the Registration Statement on Form S-1, filed by Pono Capital Two, Inc. on July 22, 2022)</a>. </span></td></tr>
+  <tr style="background-color: White">
+    <td style="vertical-align: top; text-align: justify"><span style="font-size: 10pt">4.3</span></td>
+    <td style="vertical-align: bottom; text-align: justify">&#160;</td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-size: 10pt"><a href="http://www.sec.gov/Archives/edgar/data/1930313/000149315222020076/ex4-2.htm">Specimen Class A Common Stock Certificate (incorporated by reference to Exhibit 4.2 to the Amendment No. 1 to the Registration Statement on Form S-1, filed by Pono Capital Two, Inc. on July 22, 2022)</a>.</span></td></tr>
+  <tr style="background-color: rgb(204,238,255)">
+    <td style="vertical-align: top; text-align: justify"><span style="font-size: 10pt">4.4</span></td>
+    <td style="vertical-align: bottom; text-align: justify">&#160;</td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-size: 10pt"><a href="http://www.sec.gov/Archives/edgar/data/1930313/000149315222020076/ex4-4.htm">Specimen Warrant Certificate (incorporated by reference to Exhibit 4.4 to the Amendment No. 1 to the Registration Statement on Form S-1, filed by Pono Capital Two, Inc. on July 22, 2022)</a>.</span></td></tr>
+  <tr style="background-color: White">
+    <td style="vertical-align: top; text-align: justify"><span style="font-size: 10pt">10.1+</span></td>
+    <td style="vertical-align: bottom; text-align: justify">&#160;</td>
+    <td style="vertical-align: bottom; text-align: justify"><a href="http://www.sec.gov/Archives/edgar/data/1930313/000121390024067438/ea0204257-11.htm#T903"><span style="font-size: 10pt">Form of SBC Medical Group Holdings Incorporated Equity Incentive Plan (incorporated by reference to Annex C to the Definitive Proxy Statement filed by Pono Capital Two Corp. with the SEC on August 12, 2024).</span></a></td></tr>
+  <tr style="background-color: rgb(204,238,255)">
+    <td style="vertical-align: top; text-align: justify"><span style="font-size: 10pt">10.2*</span></td>
+    <td style="vertical-align: bottom; text-align: justify">&#160;</td>
+    <td style="vertical-align: bottom; text-align: justify"><a href="ea021502401ex10-2_sbcmed.htm"><span style="font-size: 10pt">Form of Indemnification Agreement.</span></a></td></tr>
+</table>
+
+<p style="margin: 0">&#160;</p>
+
+<p style="margin: 0"></p>
+
+<!-- Field: Page; Sequence: 15; Value: 1 -->
+    <div style="border-bottom: Black 1.5pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->14<!-- Field: /Sequence --></span></p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="margin: 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="background-color: rgb(204,238,255)">
+    <td style="vertical-align: top; text-align: justify; width: 9%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">10.3</span></td>
+    <td style="vertical-align: bottom; text-align: justify; width: 1%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="vertical-align: bottom; text-align: justify; width: 90%"><a href="http://www.sec.gov/Archives/edgar/data/1930313/000121390024067438/ea0204257-11.htm#T9001"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Form of Registration Rights Agreement by certain SBC Medical Group Holdings Incorporated equity holders (incorporated by reference to &#160;Exhibit E to Annex A to the Definitive Proxy Statement filed by Pono Capital Two Corp. with the SEC on August 12, 2024).</span></a></td></tr>
+  <tr style="background-color: White">
+    <td style="vertical-align: top; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">10.4</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><a href="http://www.sec.gov/Archives/edgar/data/1930313/000121390024067438/ea0204257-11.htm#T9001"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Form of Lock-Up Agreement by certain SBC Medical Group Holdings Incorporated equity holders (incorporated by reference to &#160;Exhibit C to Annex A to the Definitive Proxy Statement filed by Pono Capital Two Corp. with the SEC on August 12, 2024).</span></a></td></tr>
+  <tr style="background-color: rgb(204,238,255)">
+    <td style="vertical-align: top; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">10.5</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><a href="http://www.sec.gov/Archives/edgar/data/1930313/000149315222021781/ex10-1.htm">Letter
+    Agreement, dated August 4, 2022, by and among Pono Capital Two Inc., its officers, directors, and Mehana Capital LLC (incorporated
+    by reference to Exhibit 10.1 to the Current Report on Form 8-K filed by Pono Capital Two, Inc. with the SEC on August 9, 2022)</a>.
+    </span></td></tr>
+  <tr style="background-color: White">
+    <td style="vertical-align: top; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">10.6</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><a href="http://www.sec.gov/Archives/edgar/data/1930313/000149315223003426/ex10-4.htm">Purchaser
+    Support Agreement, dated January 31, 2023 (incorporated by reference to Exhibit 10.4 to the Current Report on Form 8-K filed by Pono
+    Capital Two, Inc. with the SEC on February 2, 2023)</a>.</span></td></tr>
+  <tr style="background-color: rgb(204,238,255)">
+    <td style="vertical-align: top; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">10.7</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><a href="http://www.sec.gov/Archives/edgar/data/1930313/000149315223003426/ex10-5.htm">Voting
+    Agreement, dated January 31, 2023 (incorporated by reference to Exhibit 10.5 to the Current Report on Form 8-K filed by Pono Capital
+    Two, Inc. with the SEC on February 2, 2023)</a>.</span></td></tr>
+  <tr style="background-color: White">
+    <td style="vertical-align: top; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">10.8*+</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><a href="ea021502401ex10-8_sbcmed.htm"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Executive Employment Agreement between SBC Medical Group Holdings and Yoshiyuki Aikawa, dated September 17, 2024.</span></a></td></tr>
+  <tr style="background-color: rgb(204,238,255)">
+    <td style="vertical-align: top; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">10.9*+</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><a href="ea021502401ex10-9_sbcmed.htm"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Executive Employment Agreement between SBC Medical Group Holdings and Yuya Yoshida, dated September 17, 2024.</span></a></td></tr>
+  <tr style="background-color: White">
+    <td style="vertical-align: top; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">10.10*+</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><a href="ea021502401ex10-10_sbcmed.htm"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Executive Employment Agreement between SBC Medical Group Holdings and Ryoji Murata, dated September 17, 2024.</span></a></td></tr>
+  <tr style="background-color: rgb(204,238,255)">
+    <td style="vertical-align: top; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">10.11*+</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><a href="ea021502401ex10-11_sbcmed.htm"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Executive Employment Agreement between SBC Medical Group Holdings and Akira Komatsu, dated September 17, 2024.</span></a></td></tr>
+  <tr style="background-color: White">
+    <td style="vertical-align: top; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">10.12</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><a href="http://www.sec.gov/Archives/edgar/data/1930313/000121390024067438/ea0204257-11.htm#T9001"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Form of Non-Competition and Non-Solicitation Agreement (incorporated by reference to Exhibit D to Annex A to the Definitive Proxy Statement filed by Pono Capital Two, Inc. with the SEC on August 12, 2024).</span></a></td></tr>
+  <tr style="background-color: rgb(204,238,255)">
+    <td style="vertical-align: top; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">14.1*</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><a href="ea021502401ex14-1_sbcmed.htm"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Code of Ethics.</span></a></td></tr>
+  <tr style="background-color: White">
+    <td style="vertical-align: top; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">16.1*</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><a href="ea021502401ex16-1_sbcmed.htm"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Letter from Marcum LLP to the Securities and Exchange Commission, dated September 19, 2024</span></a></td></tr>
+  <tr style="background-color: rgb(204,238,255)">
+    <td style="vertical-align: top; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">21.1*</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><a href="ea021502401ex21-1_sbcmed.htm"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Subsidiaries of the Registrant.</span></a></td></tr>
+  <tr style="background-color: White">
+    <td style="vertical-align: top; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">99.1*</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><a href="ea021502401ex99-1_sbcmed.htm"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Unaudited
+    Consolidated Financial Statements of SBC Medical Group Holdings Incorporated as of June 30, 2024 and for the Three and Six Months
+    Ended June 30, 2024 and 2023.</span></a></td></tr>
+  <tr style="background-color: rgb(204,238,255)">
+    <td style="vertical-align: top; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">99.2*</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><a href="ea021502401ex99-2_sbcmed.htm"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Management&#8217;s
+    Discussion and Analysis of Financial Condition and Results of Operations of SBC Medical Group Holdings Incorporated as of June 30,
+    2024 and for the Three and Six Months Ended June 30, 2024 and 2023.</span></a></td></tr>
+  <tr style="background-color: White">
+    <td style="vertical-align: top; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">99.3*</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><a href="ea021502401ex99-3_sbcmed.htm"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Unaudited Pro Forma Condensed Combined Financial Statements as of June 30, 2024 and for the year ended December 31, 2023 and the six months ended June 30, 2024.</span></a></td></tr>
+  <tr style="background-color: rgb(204,238,255)">
+    <td style="vertical-align: top; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">99.4**</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><a href="ea021502401ex99-4_sbcmed.htm"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Press Release</span></a></td></tr>
+  <tr style="background-color: White">
+    <td style="vertical-align: top; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">99.5**</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><a href="ea021502401ex99-5_sbcmed.htm"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Investor Presentation.</span></a></td></tr>
+  <tr style="background-color: rgb(204,238,255)">
+    <td style="vertical-align: top; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">104</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="vertical-align: bottom; text-align: justify"><p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Cover
+                                            Page Interactive Data File (Embedded within the Inline XBRL Document).</span></p></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><tr style="vertical-align: top; text-align: justify">
+<td style="width: 0.25in; text-align: left">*</td><td style="text-align: justify">Filed herewith</td>
+</tr></table>
+
+<p style="margin-top: 0; margin-bottom: 0"></p>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><tr style="vertical-align: top; text-align: justify">
+<td style="width: 0.25in; text-align: left">**</td><td style="text-align: justify">Furnished herewith</td>
+</tr></table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><tr style="vertical-align: top; text-align: justify">
+<td style="width: 0.25in; text-align: left">+</td><td style="text-align: justify">Indicates a management or compensatory plan</td>
+</tr></table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<table cellpadding="0" cellspacing="0" style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; width: 100%"><tr style="vertical-align: top; text-align: justify">
+<td style="width: 0.25in; text-align: left">&#8224;</td><td style="text-align: justify">Schedules to this exhibit have been omitted pursuant to Item
+601(b)(2) of Regulation S-K. The Registrant hereby agrees to furnish a copy of any omitted schedules to the SEC upon request.</td>
+</tr></table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Page; Sequence: 16; Value: 1 -->
+    <div style="border-bottom: Black 1.5pt solid; margin-top: 12pt; margin-bottom: 6pt"><p style="text-align: center; margin-top: 0pt; margin-bottom: 0pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><!-- Field: Sequence; Type: Arabic; Name: PageNo -->15<!-- Field: /Sequence --></span></p></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt"><p style="margin: 0pt">&#160;</p></div>
+    <!-- Field: /Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>SIGNATURE</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in">Pursuant to the requirements
+of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, hereunto
+duly authorized.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%">
+  <tr style="vertical-align: bottom">
+    <td>&#160;</td>
+    <td colspan="2"><span style="font-size: 10pt"><b>SBC Medical Group Holdings Incorporated</b></span></td></tr>
+  <tr style="vertical-align: bottom">
+    <td>&#160;</td>
+    <td colspan="2">&#160;</td></tr>
+  <tr style="vertical-align: bottom">
+    <td style="width: 60%"><span style="font-size: 10pt">Dated: September 20, 2024</span></td>
+    <td style="width: 4%"><span style="font-size: 10pt">By:</span></td>
+    <td style="border-bottom: Black 1.5pt solid; width: 36%"><span style="font-size: 10pt"><i>/s/ Yoshiyuki Aikawa</i></span></td></tr>
+  <tr style="vertical-align: bottom">
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td><span style="font-size: 10pt">Yoshiyuki Aikawa</span></td></tr>
+  <tr style="vertical-align: bottom">
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td><span style="font-size: 10pt">Director, Chairman and Chief Executive Officer</span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt">16</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"></p>
+
+<!-- Field: Rule-Page --><div style="width: 100%"><div style="border-top: Black 1.5pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<!-- Field: Set; Name: xdx; ID: xdx_08B_extensions -->
+<!-- eJyFkd9KwzAUxp9g73AoXo6a1g20d3PMIW6uVFFvY3fqwtqccpL9eyTf0iSlOlCwBEpyvi+/75xE0TCa052qkeHttljAMzZtLS1CgRUy6hKdYnr/kIH7F/ihjGWpbdj2xik5DzrPOE5H0hWCdK8MrjMQN5fJ9WU6AnGVjVPIl9HA16ekK7VGbZWsQeo15EwtK7SST90Nz/JImppTQL0gG0U6gyQWXfkTUpGk8Eh7eSDeGlgsptFgGL5BNGfatU41O1rU3gmzGhuHM537Z4U05c5YarIC14iNfK/xVbJv08xkuXnd0PfB7IhcKuMld8QrjU8bybiq3Aga0k+Wyu2kF2HOqnS1JInHIkcO0iU278gOmYg0TcRE9OPqydCjh4AODgdPh0N3CPjDh4oYSCMYfy9QBV0ICClAWjfWXo/Q+ixedBHiQOveLRj/GMNZMyIWQiS55BdZ7/CfJs75Q7jovNBKhr13/2Z+AbNqyDs= -->
+</body>
+</html>
