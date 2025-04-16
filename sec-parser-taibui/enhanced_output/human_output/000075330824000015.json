@@ -1,0 +1,3918 @@
+{
+  "type": "DOCUMENT",
+  "content": "",
+  "level": 0,
+  "confidence": 1.0,
+  "children": [
+    {
+      "type": "CONTAINER",
+      "content": "html",
+      "level": 1,
+      "confidence": 0.8,
+      "children": [
+        {
+          "type": "CONTAINER",
+          "content": "head",
+          "level": 2,
+          "confidence": 0.8,
+          "children": [
+            {
+              "type": "CONTAINER",
+              "content": "meta",
+              "level": 3,
+              "confidence": 0.8
+            },
+            {
+              "type": "CONTAINER",
+              "content": "title",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "nee-20240227",
+                  "level": 4,
+                  "confidence": 0.9
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CONTAINER",
+          "content": "body",
+          "level": 2,
+          "confidence": 0.8,
+          "children": [
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "ix:header",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "ix:hidden",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "CONTAINER",
+                          "content": "ix:nonnumeric",
+                          "level": 6,
+                          "confidence": 0.8,
+                          "children": [
+                            {
+                              "type": "SECTION_TITLE",
+                              "content": "0000753308",
+                              "level": 7,
+                              "confidence": 0.9
+                            }
+                          ]
+                        },
+                        {
+                          "type": "CONTAINER",
+                          "content": "ix:nonnumeric",
+                          "level": 6,
+                          "confidence": 0.8,
+                          "children": [
+                            {
+                              "type": "SECTION_TITLE",
+                              "content": "false",
+                              "level": 7,
+                              "confidence": 0.9
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "CONTAINER",
+                      "content": "ix:references",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "CONTAINER",
+                          "content": "link:schemaref",
+                          "level": 6,
+                          "confidence": 0.8
+                        }
+                      ]
+                    },
+                    {
+                      "type": "CONTAINER",
+                      "content": "ix:resources",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "CONTAINER",
+                          "content": "xbrli:context",
+                          "level": 6,
+                          "confidence": 0.8,
+                          "children": [
+                            {
+                              "type": "CONTAINER",
+                              "content": "xbrli:entity",
+                              "level": 7,
+                              "confidence": 0.8,
+                              "children": [
+                                {
+                                  "type": "SECTION_TITLE",
+                                  "content": "0000753308",
+                                  "level": 8,
+                                  "confidence": 0.9
+                                },
+                                {
+                                  "type": "CONTAINER",
+                                  "content": "xbrli:identifier",
+                                  "level": 8,
+                                  "confidence": 0.8,
+                                  "children": [
+                                    {
+                                      "type": "SECTION_TITLE",
+                                      "content": "0000753308",
+                                      "level": 9,
+                                      "confidence": 0.9
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "CONTAINER",
+                              "content": "xbrli:period",
+                              "level": 7,
+                              "confidence": 0.8,
+                              "children": [
+                                {
+                                  "type": "CONTAINER",
+                                  "content": "xbrli:startdate",
+                                  "level": 8,
+                                  "confidence": 0.8,
+                                  "children": [
+                                    {
+                                      "type": "SECTION_TITLE",
+                                      "content": "2024-02-27",
+                                      "level": 9,
+                                      "confidence": 0.9
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "CONTAINER",
+                                  "content": "xbrli:enddate",
+                                  "level": 8,
+                                  "confidence": 0.8,
+                                  "children": [
+                                    {
+                                      "type": "SECTION_TITLE",
+                                      "content": "2024-02-27",
+                                      "level": 9,
+                                      "confidence": 0.9
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "CONTAINER",
+                          "content": "xbrli:context",
+                          "level": 6,
+                          "confidence": 0.8,
+                          "children": [
+                            {
+                              "type": "CONTAINER",
+                              "content": "xbrli:entity",
+                              "level": 7,
+                              "confidence": 0.8,
+                              "children": [
+                                {
+                                  "type": "CONTAINER",
+                                  "content": "xbrli:identifier",
+                                  "level": 8,
+                                  "confidence": 0.8,
+                                  "children": [
+                                    {
+                                      "type": "SECTION_TITLE",
+                                      "content": "0000753308",
+                                      "level": 9,
+                                      "confidence": 0.9
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "CONTAINER",
+                                  "content": "xbrli:segment",
+                                  "level": 8,
+                                  "confidence": 0.8,
+                                  "children": [
+                                    {
+                                      "type": "SECTION_TITLE",
+                                      "content": "us-gaap:CommonStockMember",
+                                      "level": 9,
+                                      "confidence": 0.9
+                                    },
+                                    {
+                                      "type": "CONTAINER",
+                                      "content": "xbrldi:explicitmember",
+                                      "level": 9,
+                                      "confidence": 0.8,
+                                      "children": [
+                                        {
+                                          "type": "SECTION_TITLE",
+                                          "content": "us-gaap:CommonStockMember",
+                                          "level": 10,
+                                          "confidence": 0.9
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "CONTAINER",
+                              "content": "xbrli:period",
+                              "level": 7,
+                              "confidence": 0.8,
+                              "children": [
+                                {
+                                  "type": "CONTAINER",
+                                  "content": "xbrli:startdate",
+                                  "level": 8,
+                                  "confidence": 0.8,
+                                  "children": [
+                                    {
+                                      "type": "SECTION_TITLE",
+                                      "content": "2024-02-27",
+                                      "level": 9,
+                                      "confidence": 0.9
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "CONTAINER",
+                                  "content": "xbrli:enddate",
+                                  "level": 8,
+                                  "confidence": 0.8,
+                                  "children": [
+                                    {
+                                      "type": "SECTION_TITLE",
+                                      "content": "2024-02-27",
+                                      "level": 9,
+                                      "confidence": 0.9
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "CONTAINER",
+                          "content": "xbrli:context",
+                          "level": 6,
+                          "confidence": 0.8,
+                          "children": [
+                            {
+                              "type": "CONTAINER",
+                              "content": "xbrli:entity",
+                              "level": 7,
+                              "confidence": 0.8,
+                              "children": [
+                                {
+                                  "type": "CONTAINER",
+                                  "content": "xbrli:identifier",
+                                  "level": 8,
+                                  "confidence": 0.8,
+                                  "children": [
+                                    {
+                                      "type": "SECTION_TITLE",
+                                      "content": "0000753308",
+                                      "level": 9,
+                                      "confidence": 0.9
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "CONTAINER",
+                                  "content": "xbrli:segment",
+                                  "level": 8,
+                                  "confidence": 0.8,
+                                  "children": [
+                                    {
+                                      "type": "SECTION_TITLE",
+                                      "content": "nee:CorporateUnits6926Member",
+                                      "level": 9,
+                                      "confidence": 0.9
+                                    },
+                                    {
+                                      "type": "CONTAINER",
+                                      "content": "xbrldi:explicitmember",
+                                      "level": 9,
+                                      "confidence": 0.8,
+                                      "children": [
+                                        {
+                                          "type": "SECTION_TITLE",
+                                          "content": "nee:CorporateUnits6926Member",
+                                          "level": 10,
+                                          "confidence": 0.9
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "CONTAINER",
+                              "content": "xbrli:period",
+                              "level": 7,
+                              "confidence": 0.8,
+                              "children": [
+                                {
+                                  "type": "CONTAINER",
+                                  "content": "xbrli:startdate",
+                                  "level": 8,
+                                  "confidence": 0.8,
+                                  "children": [
+                                    {
+                                      "type": "SECTION_TITLE",
+                                      "content": "2024-02-27",
+                                      "level": 9,
+                                      "confidence": 0.9
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "CONTAINER",
+                                  "content": "xbrli:enddate",
+                                  "level": 8,
+                                  "confidence": 0.8,
+                                  "children": [
+                                    {
+                                      "type": "SECTION_TITLE",
+                                      "content": "2024-02-27",
+                                      "level": 9,
+                                      "confidence": 0.9
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "div",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "span",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "CONTAINER",
+                          "content": "br",
+                          "level": 6,
+                          "confidence": 0.8
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "TABLE",
+                  "content": "table",
+                  "level": 4,
+                  "confidence": 0.95,
+                  "children": [
+                    {
+                      "type": "TABLE",
+                      "content": "table",
+                      "level": 5,
+                      "confidence": 0.95,
+                      "children": [
+                        {
+                          "type": "TABLE_ROW",
+                          "content": "tr",
+                          "level": 6,
+                          "confidence": 0.95,
+                          "children": [
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            }
+                          ]
+                        },
+                        {
+                          "type": "TABLE_ROW",
+                          "content": "tr",
+                          "level": 6,
+                          "confidence": 0.95,
+                          "children": [
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION",
+                  "level": 4,
+                  "confidence": 0.9
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "Washington, D.C. 20549",
+                  "level": 4,
+                  "confidence": 0.9
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "Washington, D.C. 20549",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "ix:nonnumeric",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "SECTION_TITLE",
+                          "content": "8-K",
+                          "level": 6,
+                          "confidence": 0.9
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "CURRENT REPORT",
+                  "level": 4,
+                  "confidence": 0.9
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "CURRENT REPORT",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "PURSUANT TO SECTION 13 OR 15(d)",
+                  "level": 4,
+                  "confidence": 0.9
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "PURSUANT TO SECTION 13 OR 15(d)",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "OF THE SECURITIES EXCHANGE ACT OF 1934",
+                  "level": 4,
+                  "confidence": 0.9
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "OF THE SECURITIES EXCHANGE ACT OF 1934",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "Date of earliest event reported:",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "ix:nonnumeric",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "SECTION_TITLE",
+                          "content": "February 27, 2024",
+                          "level": 6,
+                          "confidence": 0.9
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "TABLE",
+                  "content": "table",
+                  "level": 4,
+                  "confidence": 0.95,
+                  "children": [
+                    {
+                      "type": "TABLE",
+                      "content": "table",
+                      "level": 5,
+                      "confidence": 0.95,
+                      "children": [
+                        {
+                          "type": "TABLE_ROW",
+                          "content": "tr",
+                          "level": 6,
+                          "confidence": 0.95,
+                          "children": [
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            }
+                          ]
+                        },
+                        {
+                          "type": "TABLE_ROW",
+                          "content": "tr",
+                          "level": 6,
+                          "confidence": 0.95,
+                          "children": [
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "CommissionFileNumber",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "Exact name of registrant as specified in itscharter, address of principal executive offices andregistrant's telephone number",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "IRS EmployerIdentificationNumber",
+                              "level": 7,
+                              "confidence": 0.95
+                            }
+                          ]
+                        },
+                        {
+                          "type": "TABLE_ROW",
+                          "content": "tr",
+                          "level": 6,
+                          "confidence": 0.95,
+                          "children": [
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "1-8841",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "NEXTERA ENERGY, INC.",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "59-2449419",
+                              "level": 7,
+                              "confidence": 0.95
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "ix:nonnumeric",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "SECTION_TITLE",
+                          "content": "700 Universe Boulevard",
+                          "level": 6,
+                          "confidence": 0.9
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "ix:nonnumeric",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "SECTION_TITLE",
+                          "content": "Juno Beach",
+                          "level": 6,
+                          "confidence": 0.9
+                        }
+                      ]
+                    },
+                    {
+                      "type": "CONTAINER",
+                      "content": "ix:nonnumeric",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "SECTION_TITLE",
+                          "content": "Florida",
+                          "level": 6,
+                          "confidence": 0.9
+                        }
+                      ]
+                    },
+                    {
+                      "type": "CONTAINER",
+                      "content": "ix:nonnumeric",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "SECTION_TITLE",
+                          "content": "33408",
+                          "level": 6,
+                          "confidence": 0.9
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "ix:nonnumeric",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "SECTION_TITLE",
+                          "content": "561",
+                          "level": 6,
+                          "confidence": 0.9
+                        }
+                      ]
+                    },
+                    {
+                      "type": "CONTAINER",
+                      "content": "ix:nonnumeric",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "SECTION_TITLE",
+                          "content": "694-4000",
+                          "level": 6,
+                          "confidence": 0.9
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "ix:nonnumeric",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "SECTION_TITLE",
+                          "content": "Florida",
+                          "level": 6,
+                          "confidence": 0.9
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:",
+                  "level": 4,
+                  "confidence": 0.9
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "☐",
+                      "level": 5,
+                      "confidence": 0.9
+                    },
+                    {
+                      "type": "CONTAINER",
+                      "content": "ix:nonnumeric",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "SECTION_TITLE",
+                          "content": "☐",
+                          "level": 6,
+                          "confidence": 0.9
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "☐",
+                      "level": 5,
+                      "confidence": 0.9
+                    },
+                    {
+                      "type": "CONTAINER",
+                      "content": "ix:nonnumeric",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "SECTION_TITLE",
+                          "content": "☐",
+                          "level": 6,
+                          "confidence": 0.9
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "☐",
+                      "level": 5,
+                      "confidence": 0.9
+                    },
+                    {
+                      "type": "CONTAINER",
+                      "content": "ix:nonnumeric",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "SECTION_TITLE",
+                          "content": "☐",
+                          "level": 6,
+                          "confidence": 0.9
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "☐",
+                      "level": 5,
+                      "confidence": 0.9
+                    },
+                    {
+                      "type": "CONTAINER",
+                      "content": "ix:nonnumeric",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "SECTION_TITLE",
+                          "content": "☐",
+                          "level": 6,
+                          "confidence": 0.9
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "Securities registered pursuant to Section 12(b) of the Act:",
+                  "level": 4,
+                  "confidence": 0.9
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "Securities registered pursuant to Section 12(b) of the Act:",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "TABLE",
+                  "content": "table",
+                  "level": 4,
+                  "confidence": 0.95,
+                  "children": [
+                    {
+                      "type": "TABLE",
+                      "content": "table",
+                      "level": 5,
+                      "confidence": 0.95,
+                      "children": [
+                        {
+                          "type": "TABLE_ROW",
+                          "content": "tr",
+                          "level": 6,
+                          "confidence": 0.95,
+                          "children": [
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            }
+                          ]
+                        },
+                        {
+                          "type": "TABLE_ROW",
+                          "content": "tr",
+                          "level": 6,
+                          "confidence": 0.95,
+                          "children": [
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "Title of each class",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "Trading Symbol(s)",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "Name of each exchangeon which registered",
+                              "level": 7,
+                              "confidence": 0.95
+                            }
+                          ]
+                        },
+                        {
+                          "type": "TABLE_ROW",
+                          "content": "tr",
+                          "level": 6,
+                          "confidence": 0.95,
+                          "children": [
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "Common Stock, $0.01 Par Value",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "NEE",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "New York Stock Exchange",
+                              "level": 7,
+                              "confidence": 0.95
+                            }
+                          ]
+                        },
+                        {
+                          "type": "TABLE_ROW",
+                          "content": "tr",
+                          "level": 6,
+                          "confidence": 0.95,
+                          "children": [
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "6.926% Corporate Units",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "NEE.PRR",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "New York Stock Exchange",
+                              "level": 7,
+                              "confidence": 0.95
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).",
+                  "level": 4,
+                  "confidence": 0.9
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "Emerging growth company",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "☐",
+                      "level": 5,
+                      "confidence": 0.9
+                    },
+                    {
+                      "type": "CONTAINER",
+                      "content": "ix:nonnumeric",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "SECTION_TITLE",
+                          "content": "☐",
+                          "level": 6,
+                          "confidence": 0.9
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "☐",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "div",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "div",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "CONTAINER",
+                          "content": "span",
+                          "level": 6,
+                          "confidence": 0.8,
+                          "children": [
+                            {
+                              "type": "CONTAINER",
+                              "content": "br",
+                              "level": 7,
+                              "confidence": 0.8
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8
+            },
+            {
+              "type": "CONTAINER",
+              "content": "hr",
+              "level": 3,
+              "confidence": 0.8
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "div",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "span",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "CONTAINER",
+                          "content": "br",
+                          "level": 6,
+                          "confidence": 0.8
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "SECTION 2 - FINANCIAL INFORMATION",
+                  "level": 4,
+                  "confidence": 0.9
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "SECTION 2 - FINANCIAL INFORMATION",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "Item 2.03 Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant",
+                  "level": 4,
+                  "confidence": 0.95
+                },
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.95,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "Item 2.03 Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant",
+                      "level": 5,
+                      "confidence": 0.95
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "On March 1, 2024, NextEra Energy Capital Holdings, Inc. (NEECH) issued $1.0 billion in aggregate principal amount of its 3.00% Exchangeable Senior Notes due 2027 (the notes) pursuant to an indenture dated as of March 1, 2024 (the indenture) among NEECH, NextEra Energy, Inc. (NEE), NEECH’s corporate parent, as guara",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "ntor, and The Bank of New York Mellon",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": ", as trustee. The notes will bear interest at a rate of 3.00% per year, payable semi-annually in arrears on March 1 and September 1 of each year, beginning on September 1, 2024. The notes will mature on March 1, 2027, unless earlier purchased by NEECH or exchanged in accordance with their terms. The net proceeds from the sale of the notes were approximately $990 million after deducting the initial purchasers' discounts. Pursuant to a purchase agreement entered into on February 27, 2024, the notes were sold to the initial purchasers thereof in reliance upon an exemption from the registration requirements provided by Section 4(a)(2) of the Securities Act of 1933, as amended (Securities Act), for resale to qualified institutional buyers as defined in, and in reliance on, Rule 144A under the Securities Act.",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "The notes are unsecured obligations of NEECH and are unconditionally and irrevocably guaranteed, on a senior unsecured basis, by NEE. A holder may exchange all or a portion of its notes at any time prior to the close of business on the business day immediately preceding the maturity date in accordance with the indenture. Upon exchange, NEECH will pay cash up to the aggregate principal amount of the notes to be exchanged and has the right, at its sole discretion, to pay or deliver or cause NEE to deliver, as the case may be, cash, shares of NEE common stock or a combination of both, in respect of the remainder, if any, of NEECH's exchange obligation in excess of the aggregate principal amount of the notes being exchanged. The initial exchange rate is 14.6927 shares of NEE common stock per $1,000 in principal amount of notes, which is equivalent to an initial exchange price of approximately $68.06 per share of NEE common stock on February 27, 2024. This represents a premium of approximately 22.5% above the $55.56 closing price of NEE common stock on February 27, 2024. The value to be delivered upon the exchange of the notes (in excess of the principal thereof) is expected to be offset by the value of the capped call transactions (see Item 8.01) up to an initial share price of $83.34. The exchange rate is subject to adjustment in certain circumstances, as set forth in the indenture. In addition, upon the occurrence of a make-whole fundamental change (as defined in the indenture), NEECH will, in certain circumstances, increase the exchange rate by a number of additional shares of NEE common stock for a holder that elects to exchange its notes in connection with such make-whole fundamental change. To the extent that any shares of NEE common stock become issuable upon exchange of the notes, they will be issued in transactions anticipated to be exempt from registration under the Securities Act.",
+                  "level": 4,
+                  "confidence": 0.9
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "The notes are unsecured obligations of NEECH and are unconditionally and irrevocably guaranteed, on a senior unsecured basis, by NEE. A holder may exchange all or a portion of its notes at any time prior to the close of business on the business day immediately preceding the maturity date in accordance with the indenture. Upon exchange, NEECH will pay cash up to the aggregate principal amount of the notes to be exchanged and has the right, at its sole discretion, to pay or deliver or cause NEE to deliver, as the case may be, cash, shares of NEE common stock or a combination of both, in respect of the remainder, if any, of NEECH's exchange obligation in excess of the aggregate principal amount of the notes being exchanged. The initial exchange rate is 14.6927 shares of NEE common stock per $1,000 in principal amount of notes, which is equivalent to an initial exchange price of approximately $68.06 per share of NEE common stock on February 27, 2024. This represents a premium of approximately 22.5% above the $55.56 closing price of NEE common stock on February 27, 2024. The value to be delivered upon the exchange of the notes (in excess of the principal thereof) is expected to be offset by the value of the capped call transactions (see Item 8.01) up to an initial share price of $83.34. The exchange rate is subject to adjustment in certain circumstances, as set forth in the indenture. In addition, upon the occurrence of a make-whole fundamental change (as defined in the indenture), NEECH will, in certain circumstances, increase the exchange rate by a number of additional shares of NEE common stock for a holder that elects to exchange its notes in connection with such make-whole fundamental change. To the extent that any shares of NEE common stock become issuable upon exchange of the notes, they will be issued in transactions anticipated to be exempt from registration under the Securities Act.",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "Upon the occurrence of a fundamental change (as defined in the indenture) holders of the notes may require NEECH to purchase all or a portion of their notes for cash in an amount equal to the principal amount of the notes to be purchased plus any accrued and unpaid interest. The notes are not redeemable at NEECH’s option prior to their maturity.",
+                  "level": 4,
+                  "confidence": 0.9
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "Upon the occurrence of a fundamental change (as defined in the indenture) holders of the notes may require NEECH to purchase all or a portion of their notes for cash in an amount equal to the principal amount of the notes to be purchased plus any accrued and unpaid interest. The notes are not redeemable at NEECH’s option prior to their maturity.",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "The indenture contains, among other provisions, certain default and acceleration provisions relating to the failure to make required payments and deliveries on the notes or to observe other covenants in the indenture and related documents and certain bankruptcy-related events.",
+                  "level": 4,
+                  "confidence": 0.9
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "The indenture contains, among other provisions, certain default and acceleration provisions relating to the failure to make required payments and deliveries on the notes or to observe other covenants in the indenture and related documents and certain bankruptcy-related events.",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "The foregoing description of the indenture and the notes does not purport to be complete and is qualified in its entirety by reference to the complete text of the indenture (including the form of notes), a copy of which is filed as Exhibit 4 to this Current Report on Form 8-K and is incorporated herein by reference.",
+                  "level": 4,
+                  "confidence": 0.9
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "The foregoing description of the indenture and the notes does not purport to be complete and is qualified in its entirety by reference to the complete text of the indenture (including the form of notes), a copy of which is filed as Exhibit 4 to this Current Report on Form 8-K and is incorporated herein by reference.",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "SECTION 3 - SECURITIES AND TRADING MARKETS",
+                  "level": 4,
+                  "confidence": 0.9
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "SECTION 3 - SECURITIES AND TRADING MARKETS",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "Item 3.02 Unregistered Sales of Equity Securities",
+                  "level": 4,
+                  "confidence": 0.95
+                },
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.95,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "Item 3.02 Unregistered Sales of Equity Securities",
+                      "level": 5,
+                      "confidence": 0.95
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "The information set forth in Item 2.03 of this Current Report on Form 8-K is incorporated by reference into this Item 3.02.",
+                  "level": 4,
+                  "confidence": 0.9
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "The information set forth in Item 2.03 of this Current Report on Form 8-K is incorporated by reference into this Item 3.02.",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "SECTION 8 - OTHER EVENTS",
+                  "level": 4,
+                  "confidence": 0.9
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "SECTION 8 - OTHER EVENTS",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "Item 8.01 Other Events",
+                  "level": 4,
+                  "confidence": 0.95
+                },
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.95,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "Item 8.01 Other Events",
+                      "level": 5,
+                      "confidence": 0.95
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "NEECH used $52 million of the net proceeds from the sale of the notes to pay the costs of capped call transactions entered into by NEE with certain financial institutions. The capped call transactions have an aggregate notional amount of approximately $1.0 billion and an initial strike price of $68.06 and a cap price of $83.34 in each case per share of NEE common stock and subject to adjustment in certain circumstances.The capped call transactions may be settled with cash or, at NEE's election, with shares of NEE common stock. Any capped call settlement value is expected to offset the value to be delivered upon exchange of the notes (as applicable) as a result of share price improvement up to the cap price, which will be subject to certain adjustments under the terms of the capped call transactions.",
+                  "level": 4,
+                  "confidence": 0.9
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "NEECH used $52 million of the net proceeds from the sale of the notes to pay the costs of capped call transactions entered into by NEE with certain financial institutions. The capped call transactions have an aggregate notional amount of approximately $1.0 billion and an initial strike price of $68.06 and a cap price of $83.34 in each case per share of NEE common stock and subject to adjustment in certain circumstances.The capped call transactions may be settled with cash or, at NEE's election, with shares of NEE common stock. Any capped call settlement value is expected to offset the value to be delivered upon exchange of the notes (as applicable) as a result of share price improvement up to the cap price, which will be subject to certain adjustments under the terms of the capped call transactions.",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "div",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "div",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "CONTAINER",
+                          "content": "span",
+                          "level": 6,
+                          "confidence": 0.8,
+                          "children": [
+                            {
+                              "type": "CONTAINER",
+                              "content": "br",
+                              "level": 7,
+                              "confidence": 0.8
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8
+            },
+            {
+              "type": "CONTAINER",
+              "content": "hr",
+              "level": 3,
+              "confidence": 0.8
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "div",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "span",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "CONTAINER",
+                          "content": "br",
+                          "level": 6,
+                          "confidence": 0.8
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "SECTION 9 - FINANCIAL STATEMENTS AND EXHIBITS",
+                  "level": 4,
+                  "confidence": 0.9
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "SECTION 9 - FINANCIAL STATEMENTS AND EXHIBITS",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "Item 9.01 Financial Statements and Exhibits",
+                  "level": 4,
+                  "confidence": 0.95
+                },
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.95,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "Item 9.01 Financial Statements and Exhibits",
+                      "level": 5,
+                      "confidence": 0.95
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "TABLE",
+                  "content": "table",
+                  "level": 4,
+                  "confidence": 0.95,
+                  "children": [
+                    {
+                      "type": "TABLE",
+                      "content": "table",
+                      "level": 5,
+                      "confidence": 0.95,
+                      "children": [
+                        {
+                          "type": "TABLE_ROW",
+                          "content": "tr",
+                          "level": 6,
+                          "confidence": 0.95,
+                          "children": [
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            }
+                          ]
+                        },
+                        {
+                          "type": "TABLE_ROW",
+                          "content": "tr",
+                          "level": 6,
+                          "confidence": 0.95,
+                          "children": [
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "(d)",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "Exhibits",
+                              "level": 7,
+                              "confidence": 0.95
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "TABLE",
+                  "content": "table",
+                  "level": 4,
+                  "confidence": 0.95,
+                  "children": [
+                    {
+                      "type": "TABLE",
+                      "content": "table",
+                      "level": 5,
+                      "confidence": 0.95,
+                      "children": [
+                        {
+                          "type": "TABLE_ROW",
+                          "content": "tr",
+                          "level": 6,
+                          "confidence": 0.95,
+                          "children": [
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            }
+                          ]
+                        },
+                        {
+                          "type": "TABLE_ROW",
+                          "content": "tr",
+                          "level": 6,
+                          "confidence": 0.95,
+                          "children": [
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "ExhibitNumber",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "Description",
+                              "level": 7,
+                              "confidence": 0.95
+                            }
+                          ]
+                        },
+                        {
+                          "type": "TABLE_ROW",
+                          "content": "tr",
+                          "level": 6,
+                          "confidence": 0.95,
+                          "children": [
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "4",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "Indenture, dated as ofMarch1, 2024, by and among NextEra EnergyCapital Holdings, Inc., NextEra Energy, Inc.(as Guarantor) andThe Bank of New York Mellon(as Trustee)",
+                              "level": 7,
+                              "confidence": 0.95
+                            }
+                          ]
+                        },
+                        {
+                          "type": "TABLE_ROW",
+                          "content": "tr",
+                          "level": 6,
+                          "confidence": 0.95,
+                          "children": [
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "101",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "Interactive data files for this Form 8-K formatted in Inline XBRL",
+                              "level": 7,
+                              "confidence": 0.95
+                            }
+                          ]
+                        },
+                        {
+                          "type": "TABLE_ROW",
+                          "content": "tr",
+                          "level": 6,
+                          "confidence": 0.95,
+                          "children": [
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "104",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "Cover Page Interactive Data File (formatted as Inline XBRL and contained in Exhibit 101)",
+                              "level": 7,
+                              "confidence": 0.95
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "div",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "div",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "CONTAINER",
+                          "content": "span",
+                          "level": 6,
+                          "confidence": 0.8,
+                          "children": [
+                            {
+                              "type": "CONTAINER",
+                              "content": "br",
+                              "level": 7,
+                              "confidence": 0.8
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8
+            },
+            {
+              "type": "CONTAINER",
+              "content": "hr",
+              "level": 3,
+              "confidence": 0.8
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "div",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "span",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "CONTAINER",
+                          "content": "br",
+                          "level": 6,
+                          "confidence": 0.8
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "SIGNATURES",
+                  "level": 4,
+                  "confidence": 0.9
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "SIGNATURES",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized.",
+                  "level": 4,
+                  "confidence": 0.9
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized.",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "Date:  March 4, 2024",
+                  "level": 4,
+                  "confidence": 0.9
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "Date:  March 4, 2024",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "NEXTERA ENERGY, INC.",
+                  "level": 4,
+                  "confidence": 0.9
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "NEXTERA ENERGY, INC.",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "SECTION_TITLE",
+                  "content": "(Registrant)",
+                  "level": 4,
+                  "confidence": 0.9
+                },
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "SECTION_TITLE",
+                      "content": "(Registrant)",
+                      "level": 5,
+                      "confidence": 0.9
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "TABLE",
+                  "content": "table",
+                  "level": 4,
+                  "confidence": 0.95,
+                  "children": [
+                    {
+                      "type": "TABLE",
+                      "content": "table",
+                      "level": 5,
+                      "confidence": 0.95,
+                      "children": [
+                        {
+                          "type": "TABLE_ROW",
+                          "content": "tr",
+                          "level": 6,
+                          "confidence": 0.95,
+                          "children": [
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            },
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "",
+                              "level": 7,
+                              "confidence": 0.95
+                            }
+                          ]
+                        },
+                        {
+                          "type": "TABLE_ROW",
+                          "content": "tr",
+                          "level": 6,
+                          "confidence": 0.95,
+                          "children": [
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "JAMES M. MAY",
+                              "level": 7,
+                              "confidence": 0.95
+                            }
+                          ]
+                        },
+                        {
+                          "type": "TABLE_ROW",
+                          "content": "tr",
+                          "level": 6,
+                          "confidence": 0.95,
+                          "children": [
+                            {
+                              "type": "TABLE_CELL",
+                              "content": "James M. MayVice President, Controller and Chief Accounting Officer",
+                              "level": 7,
+                              "confidence": 0.95
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "span",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "br",
+                      "level": 5,
+                      "confidence": 0.8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CONTAINER",
+              "content": "div",
+              "level": 3,
+              "confidence": 0.8,
+              "children": [
+                {
+                  "type": "CONTAINER",
+                  "content": "div",
+                  "level": 4,
+                  "confidence": 0.8,
+                  "children": [
+                    {
+                      "type": "CONTAINER",
+                      "content": "div",
+                      "level": 5,
+                      "confidence": 0.8,
+                      "children": [
+                        {
+                          "type": "CONTAINER",
+                          "content": "span",
+                          "level": 6,
+                          "confidence": 0.8,
+                          "children": [
+                            {
+                              "type": "CONTAINER",
+                              "content": "br",
+                              "level": 7,
+                              "confidence": 0.8
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
